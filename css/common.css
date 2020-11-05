@@ -88,6 +88,10 @@ img {
     width: 704px;
     height: auto;
 }
+.swiper .title a {
+    font-size: 17px;
+    color: #fff;
+}
 .content-page {
     margin: 0 auto;
     padding: 1% 1% 2.5% 1%;
@@ -100,13 +104,14 @@ img {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+
+}
+.text-title a,.text-title a:link,.text-title a:hover,.text-title a:visited,.text-title a:active {
     color: #4a630e;
     font-size: 23px;
     font-weight: bold;
 }
 .text-content {
-    font-size: 15px;
-    color: #7f8080;
     line-height: 30px;
     margin-top: 2%;
     display: -webkit-box;
@@ -119,30 +124,41 @@ img {
     overflow-wrap: break-word;
     text-indent: 30px;
 }
+.text-content a,.text-content a:link,.text-content a:hover,.text-content a:visited,.text-content a:active {
+    font-size: 15px;
+    color: #7f8080;
+}
 .swiper-tab {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 19px;
     color: #666;
-    margin: 3.3% 0 0 3%;
+    margin: 3.3% 3% 0 2%;
 }
 .swiper-tab span {
     width: 24%;
     text-align: center;
+    cursor: pointer;
 }
 .swiper-tab span:nth-of-type(2) {
     width: 28%;
     text-align: center;
 }
+
 .tab {
     display: flex;
     flex-direction: column;
 }
 .tab-line {
-    margin-top: 20%;
-    border-bottom: 2px solid #1b56cf;
+    margin-top: 22%;
+    border-bottom: 3px solid #1b56cf;
     width: 100%;
+}
+.swiper-tab .fenge {
+    font-size: 20px;
+    color: #dbdbdb;
+    font-weight: 100;
 }
 .line2 {
     position: relative;
@@ -150,6 +166,7 @@ img {
     border-bottom: 1px solid #dcdcdc;
 }
 .active {
+    font-size: 19px;
     color: #1b56cf;
 }
 .tab-text-wrapper {
@@ -166,6 +183,10 @@ img {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+.tab-text-title a,.tab-text-title a:link,.tab-text-title a:hover,.tab-text-title a:visited,.tab-text-title a:active {
+    color: #333;
+    font-size: 17px;
 }
 .tab-text-date {
     width: 10%;
@@ -226,7 +247,10 @@ img {
     color: #333;
     padding: 4% 10% 2% 10%;
  }
-.fenge {
+.zwgk-tab-title span {
+    cursor: pointer;
+}
+.zwgk-tab-title .fenge {
     font-size: 27px;
     color: #dbdbdb;
     font-weight: 100;
@@ -242,6 +266,10 @@ img {
 }
 .content-list li .tab-text-title {
     width: 82%;
+    font-size: 18px;
+}
+.content-list li .tab-text-title a,.content-list li .tab-text-title a:link,.content-list li .tab-text-title a:hover,.content-list li .tab-text-title a:visited,.content-list li .tab-text-title a:active {
+    color: #333;
     font-size: 18px;
 }
 .content-list li .tab-text-date {
@@ -265,6 +293,10 @@ img {
     font-size: 18px;
     margin-left: 20%;
  }
+.zwgk-list-title a,.zwgk-list-title a:link,.zwgk-list-title a:hover,.zwgk-list-title a:visited,.zwgk-list-title a:active {
+    color: #333;
+    font-size: 18px;
+}
 .fwjl-wrapper {
     width: 100%;
     margin: 5% auto;
@@ -349,6 +381,10 @@ img {
     font-size: 15px;
     line-height: 30px;
 }
+.gzzx-content a,.gzzx-content a:link,.gzzx-content a:hover,.gzzx-content a:visited,.gzzx-content a:active {
+    color: #333;
+    font-size: 15px;
+}
 .line5-wrapper {
     padding-left: 4%;
 }
@@ -356,10 +392,13 @@ img {
     border-bottom: 1px solid #eee;
 }
 .more-zx {
-    color: #386bdc;
     text-align: right;
     padding-right: 2%;
     margin-bottom: 3%;
+}
+.more-zx a,.more-zx a:link,.more-zx a:hover,.more-zx a:visited,.more-zx a:active {
+    color: #386bdc;
+    font-size: 16px;
 }
 .info-list {
     background: #e0e0e0;
