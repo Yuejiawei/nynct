@@ -10,6 +10,12 @@ img {
     width: 100%;
     margin: 0 auto;
 }
+.mobShow {
+    display: none;
+}
+.pcShow {
+    display: block;
+}
 .top1-comW {
     background: #f2f2f2;
     width: 100%;
@@ -54,7 +60,7 @@ img {
     cursor: pointer;
     margin: 2.1% 8% 0 0;
 }
-.top-nav {
+.top-nav ul{
     margin-top: 3.5%;
 }
 .column1 {
@@ -62,6 +68,10 @@ img {
     font-size: 22px;
     font-weight: bold;
     margin-right: 8.3%;
+}
+.column1 a,.column1 a:link,.column1 a:active,.column1 a:hover,.column1 a:visited {
+    text-decoration: none;
+    color: #333;
 }
 .column2 {
     margin-right: 0;
@@ -150,11 +160,34 @@ img {
     display: flex;
     flex-direction: column;
 }
+.tab-text a,.tab-text a:link,.tab-text a:active,.tab-text a:visited {
+    text-decoration: none;
+    color: #666;
+}
+.zwgk-tab-title a,.zwgk-tab-title a:link,.zwgk-tab-title a:active,.zwgk-tab-title a:visited {
+    text-decoration: none;
+    color: #333;
+}
+.zwgk-active .zwgk-tab-title a,.zwgk-active .zwgk-tab-title a:link,.zwgk-active .zwgk-tab-title a:active,.zwgk-active .zwgk-tab-title a:visited {
+    text-decoration: none;
+    color: #333;
+}
+.active .tab-text a,.active .tab-text a:link,.active .tab-text a:active,.active .tab-text a:visited {
+    color: #1b56cf;
+}
+.tab-text a:hover {
+    text-decoration: none;
+    color: #1b56cf;
+}
 .tab-line {
     margin-top: 22%;
     border-bottom: 3px solid #1b56cf;
     width: 100%;
 }
+.mar185 {
+    margin-top: 18.5%;
+}
+
 .swiper-tab .fenge {
     font-size: 20px;
     color: #dbdbdb;
@@ -184,9 +217,14 @@ img {
     overflow: hidden;
     white-space: nowrap;
 }
-.tab-text-title a,.tab-text-title a:link,.tab-text-title a:hover,.tab-text-title a:visited,.tab-text-title a:active {
+.tab-text-title a,.tab-text-title a:link,.tab-text-title a:visited,.tab-text-title a:active {
     color: #333;
     font-size: 17px;
+}
+.tab-text-title a:hover {
+    color: #333;
+    font-size: 17px;
+    text-decoration: underline;
 }
 .tab-text-date {
     width: 10%;
@@ -356,7 +394,6 @@ img {
 }
 .gzzx {
     background: #fff;
-    padding: 0 0 0 0;
     margin-left: 2%;
 }
 .gzzx_1 {
@@ -408,4 +445,414 @@ img {
     flex-direction: row;
     justify-content: space-between;
     padding: 5% 0;
+}
+.web-info {
+    background: #5e89ea;
+}
+
+
+.linknav > li{margin-right:9px}
+.linknav > li > ul {
+    height: 327px;
+    top: -327px;
+}
+.linknav>li>ul>li{
+    float:none;
+}
+.bt {
+    margin-top: 80px;
+}
+.bt .cont, .sy .cont {
+    width: 1170px;
+    margin: 0 auto;
+}
+.bottom {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    color: #000;
+}
+
+.footclear {
+    width: 100%;
+    height: 8px;
+    background: url(../img/more.png) no-repeat center 0px;
+}
+
+.footone {
+    width: 100%;
+    font-size: 18px;
+    line-height: 80px;
+}
+
+
+.footicon {
+    padding-left: 15px;
+    float: left;
+    padding-top: 20px;
+}
+
+.footicon2 {
+    padding-left: 15px;
+    float: left;
+    padding-top: 20px;
+}
+
+.footchar {
+    width: 800px;
+    border-left: 1px solid #e6e6e6;
+    padding-left: 20px;
+    line-height: 24px;
+    text-align: left;
+    float: right;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.linknav {
+    width: 100%;
+    padding: 1% 2%;
+}
+
+.linknav > li {
+    position: relative;
+    line-height: 30px;
+    padding: 0 3.5% 0.3% 0;
+    float: left;
+    margin-right: 4.9%;
+    background: url(../img/hide.png) no-repeat right;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.linknav li:last-of-type {
+    margin-right: 0;
+}
+.linknav li:last-of-type ul {
+    width: auto;
+}
+
+.linknav .cur {
+    background: #5e89ea url(../img/show.png) no-repeat right;
+    color: #fff;
+}
+.linknav .cur a,.linknav .cur a:link,.linknav .cur a:visited,.linknav .cur a:active {
+    text-decoration: none;
+    color: #333;
+}
+.linknav .cur a:hover {
+    text-decoration: none;
+    color: #5e89ea;
+}
+
+.linkbox {
+    line-height: 30px;
+    width: 100%;
+    font-size: 12px; /* display: none; */
+    height: 145px;
+    overflow: hidden;
+    display: none;
+    margin-top: 10px;
+}
+
+.linkbox > li {
+    padding: 10px 15px;
+    float: left;
+    color: #000;
+}
+
+.linknav > li > ul {
+    width: 220px;
+    height: 340px;
+    overflow-y: scroll;
+    background-color: #fff;
+    border: 1px solid #ccd1d3;
+    position: absolute;
+    left: -1px;
+    top: -340px;
+    display: none;
+    z-index: 1000;
+}
+.linknav > li > ul > li {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 25px;
+}
+
+.linknav > li > ul a {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.linknav li:hover > ul {
+    display: block;
+}
+.footer {
+    padding: 1% 0;
+    background: #3657b8;
+}
+.mask {
+    padding: 2% 0;
+    background: url(../img/mask.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+.footer-content {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #000;
+}
+.dzjg-icon {
+    margin-top: -12px;
+    padding: 20px 0 0 15px;
+    float: left;
+}
+.bgt {
+    padding: 20px 0 0 15px;
+    float: left;
+}
+.bqxx {
+    margin-top: -12px;
+    padding: 20px 0 0 15px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    color: #fff;
+}
+.line6 {
+    border-right: 1px solid #8196d2;
+    margin: 0 21px;
+}
+.zbdw {
+    line-height: 24px;
+}
+.zbdw a,.zbdw a:link,.zbdw a:hover,.zbdw a:active,.zbdw a:visited{
+    color: #fff;
+}
+.jszc {
+    line-height: 24px;
+}
+.baxx  {
+    line-height: 24px;
+}
+.dgwa {
+    padding-top: 0.4%;
+}
+.baxx a,.baxx a:hover,.baxx a:link,.baxx a:active,.baxx a:visited {
+    color: #fff;
+}
+
+@media screen and (max-width: 1025px) {
+    .swiper1-wrapper {
+        width: 100%;
+        transform: translateX(15%);
+    }
+    .text-wrapper {
+        width: 100%;
+        padding-top: 3%;
+    }
+    .content-page {
+        margin: 0 auto;
+        padding: 0 1% 2.5% 1%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .bottomline {
+        display: none;
+    }
+    .swiper1-wrapper {
+        transform: translateX(3.5%);
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    .fl, .fr {
+        float: none;
+    }
+    .mobShow {
+        display: block;
+    }
+    .pcShow {
+        display: none;
+    }
+    .top-title, .top-setting {
+        padding: 2% 2%;
+    }
+    .top-title {
+        float: left;
+    }
+    .top-setting {
+        float: right;
+    }
+    .top-logo {
+        width: 100%;
+        padding: 3.2% 2% 0 1%;
+    }
+    .top-searandnav,.top-search {
+        width: 100%;
+    }
+   .top-nav {
+       margin-top: 3.5%;
+   }
+   .mobStyle {
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+   }
+    .column4 {
+        width: 15%;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .content-bg1 {
+        background: none;
+    }
+    .content-rect {
+        background: #fff;
+        margin-top: 2.8%;
+    }
+    .swiper1-wrapper {
+        width: 100%;
+        transform: none;
+    }
+    .swiper .title a {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+    .text-wrapper {
+        width: 100%;
+        margin-top: 0;
+        padding: 5% 2% 0 2%;
+    }
+    .swiper-tab{
+        font-size: 15px;
+    }
+    .active {
+        font-size: 15px;
+    }
+    .mar185 {
+        margin-top: 19%;
+    }
+    .tab-text-title {
+        width: 85%;
+        float: left;
+    }
+    .tab-text-title a, .tab-text-title a:link, .tab-text-title a:hover, .tab-text-title a:visited, .tab-text-title a:active {
+        font-size: 16px;
+    }
+    .tab-text-date {
+        font-size: 14px;
+    }
+    .tab-text-date {
+        width: 11%;
+        float: right;
+    }
+    .mobfl {
+        float: left;
+    }
+    .zwgk {
+        padding: 0 1% 0 1%;
+    }
+    .zwgk-left-content {
+        width: 100%;
+    }
+    .zwgk-tab-title {
+        font-size: 22px;
+        padding: 4% 8% 2% 8%;
+    }
+    .content-list li .tab-text-title {
+        width: 75%;
+    }
+    .title-icon {
+        margin-top: -0.3%;
+    }
+    .content-list li .tab-text-title a, .content-list li .tab-text-title a:link, .content-list li .tab-text-title a:hover, .content-list li .tab-text-title a:visited, .content-list li .tab-text-title a:active {
+        color: #333;
+        font-size: 15px;
+    }
+    .content-list li .tab-text-date {
+        width: 23%;
+    }
+    .zwgk-right-content {
+        width: 100%;
+    }
+    .zwgk-list-icon {
+        float: left;
+        padding-top: 6.5%;
+    }
+    .zwgk-list-title {
+        float: left;
+    }
+    .zwgk-list {
+        padding: 3% 0 3% 28%;
+    }
+    .zwfw-wrapper {
+        width: 100%;
+    }
+    .zwfw-image {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .app-wrapper {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .fwjl-wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .zwfw-wrapper {
+        margin: 5% auto;
+    }
+    .hdjl-xxzx {
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5.5%;
+        margin-left: 1%;
+        margin-bottom: 3%;
+        margin-right: 1%;
+        padding: 2% 1%;
+    }
+    .gzzx {
+        background: #fff;
+        margin: 0 1%;
+    }
+    .linknav li:nth-of-type(even) {
+        margin-right: 0;
+    }
+    .linknav > li {
+        padding: 0 10% 0.3% 5%;
+    }
+    .dzjg-icon {
+        width: 50%;
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    .bgt {
+        width: 50%;
+        text-align: left;
+    }
+    .bqxx {
+        float: none;
+        display: block;
+        padding: 20px 15px 0 15px;
+        text-align: center;
+    }
+    .dgwa {
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .dgwa {
+        padding-left: 16px;
+    }
 }
