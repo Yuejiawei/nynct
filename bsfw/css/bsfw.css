@@ -1,0 +1,45 @@
+.text-yiweweiben {
+    margin: 8.9% 0 8.9% 12.3%;
+}
+.content-ynzww {
+    background: #6c9322;
+    opacity: 0.8;
+    border-top: 3px solid #96b242;
+    border-bottom: 3px solid #96b242;
+}
+.zwfww {
+    width: 45%;
+    padding: 3.4% 9%;
+    border-left: 1px solid #90aa44;
+}
+.bsfw {
+    width: 55%;
+}
+.bsfw_item {
+    padding: 3.2% 13.5%;
+    border-left: 1px solid #90aa44;
+}
+.bsfw_item:nth-of-type(1) {
+    padding-top: 3.5%;
+    border-bottom: 1px solid #90aa44;
+}
+.bsfw_item:nth-of-type(2) {
+    padding-right: 13.9%;
+    border-bottom: 1px solid #90aa44;
+    border-right: 1px solid #90aa44;
+}
+.bsfw_item:last-of-type {
+    border-right: 1px solid #90aa44;
+}
+.yypt {
+    background: #f6f6f6;
+}
+.yypt-img {
+    width: 100%;
+    padding: 4% 0;
+    text-align: center;
+}
+.row img {
+    box-shadow: 0 0 10px #ededed;
+}
+

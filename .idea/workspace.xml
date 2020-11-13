@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f37bdbb-a6ac-4ebe-983f-82c61e02c55d" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/nync.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/bsfw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/css/bsfw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/bmbs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/bmbs_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/ctsjcx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/cyfptj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/cyhzxxpt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/frbs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/frbs_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/grbs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/grbs_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/ncpcxdjxx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/njgzbtxx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/nynctxtgzpt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/szxcsjtj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/yirenweiben.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/yn12316.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/ynzwfw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/yypt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/zlaqxxzspt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/ztbs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/img/ztbs_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bsfw/js/bsfw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/css/hdjl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/hdjl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/img/faburen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/img/gzzx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/img/lyhf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/img/tzxx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/img/xwfb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/img/xwfbh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/img/zhuti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdjl/js/hdjl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/css/ztzl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/gjhxlj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/hlwjdc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/images/专题专栏_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/jzjstpgj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/qgzxxd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/rdjy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/tsshzysx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/tz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/wllj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/yshj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/ztzl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/zxta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/img/zyxx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/js/paginathing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/js/ztzl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztzl/ztzl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nync.html" beforeDir="false" afterPath="$PROJECT_DIR$/nync.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="ProjectId" id="1joDYsskBMWOlrbmLgYpHzxrvq7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\integratedEnvironment\wwwroot\ynw\html\nync\hdjl\js" />
+      <recent name="E:\integratedEnvironment\wwwroot\ynw\html\nync\bsfw\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\DELL\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f37bdbb-a6ac-4ebe-983f-82c61e02c55d" name="Default Changelist" comment="" />
+      <created>1604461601335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604461601335</updated>
+      <workItem from="1604461602368" duration="2743000" />
+      <workItem from="1604473525728" duration="15498000" />
+      <workItem from="1604536357141" duration="32313000" />
+      <workItem from="1604622948906" duration="31795000" />
+      <workItem from="1604882021459" duration="12000" />
+      <workItem from="1604882520777" duration="15403000" />
+      <workItem from="1605143914951" duration="24111000" />
+      <workItem from="1605227310857" duration="30256000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1604488157975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604488157975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1604575101116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604575101116</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initially formed a page">
+      <created>1604661425495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604661425495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="initially formed a page" />
+    <option name="LAST_COMMIT_MESSAGE" value="initially formed a page" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="557" y="95" key="CommitChangelistDialog2" timestamp="1604661424683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604661424683" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604908823471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604908823471" />
+    <state x="771" y="420" key="Github.CreateGistDialog" timestamp="1604488104127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="420" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604488104127" />
+    <state x="832" y="417" width="256" height="281" key="Github.ShareDialog" timestamp="1604487874990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="417" width="256" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604487874990" />
+    <state x="730" y="224" key="Github.UntrackedFilesDialog" timestamp="1604487927761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604487927761" />
+    <state x="720" y="221" key="RollbackChangesDialog" timestamp="1604575061668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604575061668" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1604487758667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604487758667" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604661683278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604661683278" />
+    <state x="758" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604488311492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="758" y="419" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604488311492" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605256827216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605256827216" />
+    <state x="760" y="203" key="svn.repositoryBrowser" timestamp="1604487595553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="203" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1604487595553" />
+  </component>
+</project>

@@ -34,14 +34,14 @@
             </div>
             <div class="top-searandnav fr">
                 <div class="top-search fr">
-                    <input name="keyword" type="text" class="search-input" id="textfield" onkeydown="if(event.keyCode===13){submitsearch();}" onfocus="if(this.value=='请输入关键字'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键词';}" placeholder="请输入关键字" />
+                    <input name="keyword" type="text" class="search-input" id="textfield" onkeydown="if(event.keyCode===13){submitsearch();}" onfocus="if(this.value==='请输入关键字'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键词';}" placeholder="请输入关键字" />
                     <div id="btn_submit" class="search-icon" onclick="submitsearch()"></div>
                 </div>
                 <div class="space"></div>
                 <div class="top-nav yh">
                     <ul class="pcShow">
                         <li class="column1 column2 fl">
-                            <a href="#" target="_blank">首页</a>
+                            <a href="" target="_blank">首页</a>
                             <div class="bottomline"></div>
                         </li>
                         <li class="column1 fl">
@@ -49,11 +49,11 @@
                             <div class="bottomline dn"></div>
                         </li>
                         <li class="column1 fl">
-                            <a href="" target="_blank">办事服务</a>
+                            <a href="bsfw/bsfw.html" target="_blank">办事服务</a>
                             <div class="bottomline dn"></div>
                         </li>
                         <li class="column1 fl">
-                            <a href="" target="_blank">互动交流</a>
+                            <a href="hdjl/hdjl.html" target="_blank">互动交流</a>
                             <div class="bottomline dn"></div>
                         </li>
                         <li class="column1 column3 fl">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="top-nav yh">
                     <div class="mobStyle mobShow">
-                        <div class="column4"><a href="#">首页</a></div>
+                        <div class="column4"><a href="/">首页</a></div>
                         <div class="column4"><a href="">政务公开</a></div>
                         <div class="column4"><a href="">办事服务</a></div>
                         <div class="column4"><a href="">互动交流</a></div>
@@ -92,41 +92,41 @@
                         <div class="swiper" id="swiper" style="overflow: hidden;">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="#" target="_blank">
                                         <img src="img/content_img.png" />
                                     </a>
                                     <div class="title">
-                                        <a href="#">
+                                        <a href="#" target="_blank">
                                             国务院关于同意在浙江省暂时调整实施有关行政法规规定的批复
                                         </a>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#" target="_blank">
                                         <img src="img/content_img.png" />
                                     </a>
                                     <div class="title">
-                                        <a href="#">
+                                        <a href="#" target="_blank">
                                             国务院关于同意在浙江省暂时调整实施有关行政法规规定的批复
                                         </a>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#" target="_blank">
                                         <img src="img/content_img.png" />
                                     </a>
                                     <div class="title">
-                                        <a href="#">
+                                        <a href="#" target="_blank">
                                             国务院关于同意在浙江省暂时调整实施有关行政法规规定的批复
                                         </a>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#" target="_blank">
                                         <img src="img/content_img.png" />
                                     </a>
                                     <div class="title">
-                                        <a href="#">
+                                        <a href="#" target="_blank">
                                             国务院关于同意在浙江省暂时调整实施有关行政法规规定的批复
                                         </a>
                                     </div>
@@ -144,7 +144,8 @@
                             <span class="active">
                                 <div class="tab">
                                     <div class="tab-text">
-                                        <a href="#" target="_blank">云农快讯</a></div>
+                                        <a class="pc" href="#" target="_blank">云农快讯</a></div>
+                                        <a class="notpc" href="javascript:void(0)">云农快讯</a>
                                     <div class="tab-line"></div>
                                 </div>
                             </span>
@@ -152,16 +153,18 @@
                             <span class="">
                                 <div class="tab">
                                     <div class="tab-text">
-                                        <a href="#" target="_blank">全国信息联播</a>
+                                        <a class="pc" href="#" target="_blank">全国信息联播</a>
+                                        <a class="notpc" href="javascript:void(0)">全国信息联播</a>
                                     </div>
-                                    <div class="tab-line dn mar185" style=""></div>
+                                    <div class="tab-line dn mar185"></div>
                                 </div>
                             </span>
                             <div class="fenge">|</div>
                             <span class="">
                                 <div class="tab">
                                     <div class="tab-text">
-                                        <a href="#" target="_blank">国务院信息</a>
+                                        <a class="pc" href="#" target="_blank">国务院信息</a>
+                                        <a class="notpc" href="javascript:void(0)">国务院信息</a>
                                     </div>
                                     <div class="tab-line dn"></div>
                                 </div>
@@ -173,90 +176,104 @@
                             <div class="tab-text">
                                 <ul>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">楚雄州扶贫日“消费扶贫产品展销”启动1</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">楚雄州扶贫日“消费扶贫产品展销”启动1</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">云南省第三次全国农作物种质资源普查与收集行动进展较为顺利</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">云南省第三次全国农作物种质资源普查与收集行动进展较为顺利</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">“云南省程功专家工作站”在省畜牧兽医科学院揭牌</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">“云南省程功专家工作站”在省畜牧兽医科学院揭牌</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">晋宁首创村规民约“红黑榜”</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">晋宁首创村规民约“红黑榜”</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">老乡们的小康路越走越宽</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">老乡们的小康路越走越宽</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">婆娑碧叶晶 枝下脆梨莹</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">婆娑碧叶晶 枝下脆梨莹</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
+                                    <li class="space0"></li>
                                 </ul>
+                                <div class="more clearfix notpc">
+                                    <a href="#" target="_blank">更 多</a>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-text-wrapper yh ohd clearfix dn">
                             <div class="tab-text">
                                 <ul>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">楚雄州扶贫日“消费扶贫产品展销”启动2</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">楚雄州扶贫日“消费扶贫产品展销”启动2</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">云南省第三次全国农作物种质资源普查与收集行动进展较为顺利</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">云南省第三次全国农作物种质资源普查与收集行动进展较为顺利</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">“云南省程功专家工作站”在省畜牧兽医科学院揭牌</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">“云南省程功专家工作站”在省畜牧兽医科学院揭牌</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">晋宁首创村规民约“红黑榜”</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">晋宁首创村规民约“红黑榜”</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">老乡们的小康路越走越宽</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">老乡们的小康路越走越宽</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">婆娑碧叶晶 枝下脆梨莹</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">婆娑碧叶晶 枝下脆梨莹</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
+                                    <li class="space0"></li>
                                 </ul>
+                                <div class="more clearfix notpc">
+                                    <a href="#" target="_blank">更 多</a>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-text-wrapper yh ohd clearfix dn">
                             <div class="tab-text">
                                 <ul>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">楚雄州扶贫日“消费扶贫产品展销”启动3</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">楚雄州扶贫日“消费扶贫产品展销”启动3</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">云南省第三次全国农作物种质资源普查与收集行动进展较为顺利</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">云南省第三次全国农作物种质资源普查与收集行动进展较为顺利</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">“云南省程功专家工作站”在省畜牧兽医科学院揭牌</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">“云南省程功专家工作站”在省畜牧兽医科学院揭牌</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">晋宁首创村规民约“红黑榜”</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">晋宁首创村规民约“红黑榜”</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">老乡们的小康路越走越宽</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">老乡们的小康路越走越宽</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
                                     <li>
-                                        <div class="tab-text-title fl"><a href="#">婆娑碧叶晶 枝下脆梨莹</a></div>
+                                        <div class="tab-text-title fl"><a href="#" target="_blank">婆娑碧叶晶 枝下脆梨莹</a></div>
                                         <div class="tab-text-date fr">07.23</div>
                                     </li>
+                                    <li class="space0"></li>
                                 </ul>
+                                <div class="more clearfix notpc">
+                                    <a href="#" target="_blank">
+                                        <a href="#" target="_blank">更 多</a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -265,42 +282,42 @@
                 <div class="special-list" id="special-list" style="overflow: hidden;">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_1.png" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_2.png" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_3.png" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_4.png" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_1.png" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_2.png" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_3.png" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" target="_blank">
                                 <img src="img/special_4.png" />
                             </a>
                         </li>
@@ -326,15 +343,18 @@
                 <div class="zwgk-tab">
                     <div class="zwgk-tab-title">
                         <span class="zwgk-active">
-                            <a href="#" target="_blank">政策文件</a>
+                            <a class="pc" href="#" target="_blank">政策文件</a>
+                            <a class="notpc" href="javascript:void(0)">政策文件</a>
                         </span>
                         <div class="fenge">|</div>
                         <span class="">
-                            <a href="#" target="_blank">政策解读</a>
+                            <a class="pc" href="#" target="_blank">政策解读</a>
+                            <a class="notpc" href="javascript:void(0)">政策解读</a>
                         </span>
                         <div class="fenge">|</div>
                         <span class="">
-                            <a href="#" target="_blank">公示公告</a>
+                            <a class="pc" href="#" target="_blank">公示公告</a>
+                            <a class="notpc" href="javascript:void(0)">公示公告</a>
                         </span>
                     </div>
                     <div class="zwgk-content-list yh ohd clearfix">
@@ -382,7 +402,11 @@
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
+                                <li class="space0"></li>
                             </ul>
+                            <div class="more clearfix notpc">
+                                <a href="#" target="_blank">更 多</a>
+                            </div>
                         </div>
                     </div>
                     <div class="zwgk-content-list yh ohd clearfix dn">
@@ -391,46 +415,50 @@
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">云南省农业农村厅办公室关于组织开展全国农业产业化龙头企业100强推介活动的通知</a>
+                                        <a href="#" target="_blank">云南省农业农村厅办公室关于组织开展全国农业产业化龙头企业100强推介活动的通知</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">解读《云南省省级救灾备荒种子储备管理办法》2</a>
+                                        <a href="#" target="_blank">解读《云南省省级救灾备荒种子储备管理办法》2</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">《国家畜禽遗传资源目录》 专家解读④ | 促进养牛业持续健康发展</a>
+                                        <a href="#" target="_blank">《国家畜禽遗传资源目录》 专家解读④ | 促进养牛业持续健康发展</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">《国家畜禽遗传资源目录》 专家解读② | 依法依规做好畜禽遗传资源保护与利用做好畜禽遗传资源保护与利用</a>
+                                        <a href="#" target="_blank">《国家畜禽遗传资源目录》 专家解读② | 依法依规做好畜禽遗传资源保护与利用做好畜禽遗传资源保护与利用</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">云南省农业农村厅关于开展2020年农业技术正高级职称申报评审工作的通知</a>
+                                        <a href="#" target="_blank">云南省农业农村厅关于开展2020年农业技术正高级职称申报评审工作的通知</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">关于全国农村承包地确认权登记颁证工作先进集体和先进个人候选名单的公示</a>
+                                        <a href="#" target="_blank">关于全国农村承包地确认权登记颁证工作先进集体和先进个人候选名单的公示</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
+                                <li class="space0"></li>
                             </ul>
+                            <div class="more clearfix notpc">
+                                <a href="#" target="_blank">更 多</a>
+                            </div>
                         </div>
                     </div>
                     <div class="zwgk-content-list yh ohd clearfix dn">
@@ -439,46 +467,50 @@
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">云南省农业农村厅办公室关于组织开展全国农业产业化龙头企业100强推介活动的通知</a>
+                                        <a href="#" target="_blank">云南省农业农村厅办公室关于组织开展全国农业产业化龙头企业100强推介活动的通知</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">解读《云南省省级救灾备荒种子储备管理办法》3</a>
+                                        <a href="#" target="_blank">解读《云南省省级救灾备荒种子储备管理办法》3</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">《国家畜禽遗传资源目录》 专家解读④ | 促进养牛业持续健康发展</a>
+                                        <a href="#" target="_blank">《国家畜禽遗传资源目录》 专家解读④ | 促进养牛业持续健康发展</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">《国家畜禽遗传资源目录》 专家解读② | 依法依规做好畜禽遗传资源保护与利用做好畜禽遗传资源保护与利用</a>
+                                        <a href="#" target="_blank">《国家畜禽遗传资源目录》 专家解读② | 依法依规做好畜禽遗传资源保护与利用做好畜禽遗传资源保护与利用</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">云南省农业农村厅关于开展2020年农业技术正高级职称申报评审工作的通知</a>
+                                        <a href="#" target="_blank">云南省农业农村厅关于开展2020年农业技术正高级职称申报评审工作的通知</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
                                 <li>
                                     <div class="tab-text-title fl">
                                         <img class="title-icon" src="img/black_icon.png" />
-                                        <a href="#">关于全国农村承包地确认权登记颁证工作先进集体和先进个人候选名单的公示</a>
+                                        <a href="#" target="_blank">关于全国农村承包地确认权登记颁证工作先进集体和先进个人候选名单的公示</a>
                                     </div>
                                     <div class="tab-text-date fr">2020-04-16</div>
                                 </li>
+                                <li class="space0"></li>
                             </ul>
+                            <div class="more clearfix notpc">
+                                <a href="#" target="_blank">更 多</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -538,22 +570,22 @@
                     <div class="space0"></div>
                 </div>
                 <div class="zwfw-image">
-                    <a href="#"><img src="img/zwfw.png" /></a>
+                    <a href="#" target="_blank"><img src="img/zwfw.png" /></a>
                 </div>
                 <div class="app-wrapper">
                     <div class="more-img">
-                        <a href="#"><img src="img/more.png" /></a>
+                        <a href="#" target="_blank"><img src="img/more.png" /></a>
                     </div>
                     <div class="icon-list">
                         <div class="row">
-                            <a href=""><img src="img/yn12316.png"></a>
-                            <a href="#"><img src="img/cyhz.png"></a>
-                            <a href="#"><img src="img/ncpzl.png"></a>
+                            <a href="" target="_blank"><img src="img/yn12316.png"></a>
+                            <a href="#" target="_blank"><img src="img/cyhz.png"></a>
+                            <a href="#" target="_blank"><img src="img/ncpzl.png"></a>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/cxdj.png"></a>
-                            <a href="#"><img src="img/njbt.png"></a>
-                            <a href="#"><img src="img/ctpf.png"></a>
+                            <a href="#" target="_blank"><img src="img/cxdj.png"></a>
+                            <a href="#" target="_blank"><img src="img/njbt.png"></a>
+                            <a href="#" target="_blank"><img src="img/ctpf.png"></a>
                         </div>
                     </div>
                 </div>
@@ -565,27 +597,27 @@
                     <div class="space0"></div>
                 </div>
                 <div class="hdjl-xxzx">
-                    <a href="#"><img src="img/tzxx.png"></a>
+                    <a href="#" target="_blank"><img src="img/tzxx.png"></a>
                     <div class="line3 pcShow"></div>
                     <div class="kg">&emsp;</div>
-                    <a href="#"><img src="img/gzzx.png"></a>
+                    <a href="#" target="_blank"><img src="img/gzzx.png"></a>
                     <div class="space0"></div>
                 </div>
                 <div class="space0"></div>
                 <div class="gzzx clearfix ohd">
                     <div class="gzzx_1">
                         <div class="line4"></div>
-                        <div class="gzzx-content"><a href="#">您好，我是在嵩明的养殖生猪的农户，在2016年共计养殖900多头，今年养殖500头左右，想咨询下政府有没有相关的补贴以方便我们这些贫苦的农户获得一些补贴，方便后面扩大规模来使用，谢谢。</a></div>
+                        <div class="gzzx-content"><a href="#" target="_blank">您好，我是在嵩明的养殖生猪的农户，在2016年共计养殖900多头，今年养殖500头左右，想咨询下政府有没有相关的补贴以方便我们这些贫苦的农户获得一些补贴，方便后面扩大规模来使用，谢谢。</a></div>
                     </div>
                     <div class="line5-wrapper">
                         <div class="line5"></div>
                     </div>
                     <div class="gzzx_1">
                         <div class="line4"></div>
-                        <div class="gzzx-content"><a href="#">您好，我是北京汉基集团党办主任兼采购总监王晓山，我们公司是中国最大的水果精深加工企业之一，每年加工量在100万吨左右，现在想了解一下如果我们到云南来的话会有什么好的政策吗？谢谢</a></div>
+                        <div class="gzzx-content"><a href="#" target="_blank">您好，我是北京汉基集团党办主任兼采购总监王晓山，我们公司是中国最大的水果精深加工企业之一，每年加工量在100万吨左右，现在想了解一下如果我们到云南来的话会有什么好的政策吗？谢谢</a></div>
                     </div>
                     <div class="more-zx">
-                        <a href="#">查看更多公众咨询 >></a>
+                        <a href="#" target="_blank">查看更多公众咨询 >></a>
                     </div>
                 </div>
             </div>
@@ -595,16 +627,16 @@
 <div class="info-list">
     <div class="comW">
         <div class="list-img">
-            <a href="#"><img src="img/gwy.png"></a>
-            <a href="#"><img src="img/yyn.png"></a>
-            <a href="#"><img src="img/bst.png"></a>
-            <a href="#"><img src="img/wxzlsjh.png"></a>
+            <a href="#" target="_blank"><img src="img/gwy.png"></a>
+            <a href="#" target="_blank"><img src="img/yyn.png"></a>
+            <a href="#" target="_blank"><img src="img/bst.png"></a>
+            <a href="#" target="_blank"><img src="img/wxzlsjh.png"></a>
         </div>
     </div>
 </div>
 <div class="web-info">
     <div class="comW clearfix">
-        <ul class="linknav  yh clearfix">
+        <ul class="linknav yh clearfix">
             <li class="">
                 国务院部门网站
                 <ul>
@@ -1546,8 +1578,8 @@
                         <img src="img/icond.png" alt="曝光台">
                     </a>
                 </div>
-                <div class="space0 mobShow"></div>
-                <div class="bqxx">
+                <div class="space0 mobShow padShow"></div>
+                <div class="bqxx yh">
                     <div class="line6 pcShow"></div>
                     <div class="zbdw">
                         <a href="#" target="_blank">网站地图&ensp;</a>|&thinsp;
@@ -1570,9 +1602,9 @@
                         <div class="fl mobfl">&nbsp;<a href="#" target="_blank">滇公网安备 53010302000634号</a></div>
                         <div class="space0"></div>
                         <div class="pcShow">
-                            &nbsp;&nbsp;&thinsp;政府网站标识码：5300000036
+                            &emsp;&nbsp;&nbsp;政府网站标识码：5300000036
                             <br>
-                            &nbsp;&nbsp;&thinsp;滇ICP备05000002
+                            &emsp;&nbsp;&nbsp;滇ICP备05000002
                         </div>
                         <div class="mobShow">
                             政府网站标识码：5300000036 滇ICP备05000002

@@ -1,0 +1,89 @@
+.content-rect {
+    margin-top: 3.4%;
+}
+.ztzl {
+    text-align: center;
+    margin-bottom: 2.3%;
+}
+.hlwjdc {
+    padding-bottom: 2.5%;
+}
+.hlwjdc-img {
+    box-shadow: 6px 6px 22px #d4d4d4;
+    width: 65.3%;
+}
+.hlwjdc-text {
+    width: 32.5%;
+}
+.hlwjdc-text-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    padding: 2% 7% 3% 7.4%;;
+    line-height: 37px;
+}
+.hlwjdc-text-title a{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.hlwjdc-text-title a,.hlwjdc-text-title a:link,.hlwjdc-text-title a:hover,.hlwjdc-text-title a:active,.hlwjdc-text-title a:visited {
+    color: #333;
+}
+.hlwjdc-text-content {
+    line-height: 34px;
+    text-indent: 32px;
+    color: #666;
+    padding-bottom: 6.5%;
+}
+.hlwjdc-text-content a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+
+}
+.hlwjdc-text-content a,.hlwjdc-text-content a:link,.hlwjdc-text-content a:hover,.hlwjdc-text-content a:active,.hlwjdc-text-content a:visited {
+    color: #666;
+}
+.tz-img {
+    text-align: center;
+}
+.ztzl-item-wrapper {
+
+}
+.ztzl-item {
+    background: #f6f6f6;
+    padding: 1.6% 1.6% 2.5% 1.6%;
+}
+.ztzl-item-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2.8%;
+}
+.ztzl-item-text {
+    padding-top: 6%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ztzl_page {
+    text-align: center;
+    font-family: SimSun;
+}
+.active {
+    font-size: 16px;
+
+    color: #333;
+}
+.ztzl_page .prev a {
+    margin-right: 15px;
+}
+.ztzl_page .page a {
+    margin-right: 8px;
+}
+.ztzl_page .next a {
+    margin-left: 7px;
+}

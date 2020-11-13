@@ -6,7 +6,7 @@ img {
     vertical-align: middle;
 }
 .comW {
-    max-width: 1200px;
+    max-width: 1260px;
     width: 100%;
     margin: 0 auto;
 }
@@ -104,10 +104,10 @@ img {
 }
 .content-page {
     margin: 0 auto;
-    padding: 1% 1% 2.5% 1%;
+    padding: 2.5%;
 }
 .text-wrapper {
-    width: 40%;
+    width: 38%;
     padding: 0 0 0 2%;
 }
 .text-title {
@@ -235,8 +235,18 @@ img {
     overflow: hidden;
     white-space: nowrap;
 }
+.more {
+    width: 100%;
+    background: #e6e6e6;
+    text-align: center;
+    line-height: 31px;
+}
+.more a,.more a:active,.more a:hover,.more a:visited,.more a:link {
+    color: #333;
+}
 .special-list {
-    margin: 0 1.2% 3.5% 1%;
+    width: 1183px;
+    margin: 0 2.5% 3.5% 3.3%;
 }
 .special-list li {
     border: 1px solid #ccc;
@@ -246,7 +256,7 @@ img {
 }
 .zwgk {
     margin-top: 4%;
-    padding: 0 0 0 1%;
+    padding: 0 2.5% 0 2.5%;
 }
 .zwgk-title-wrapper {
     padding-left: 1%;
@@ -262,7 +272,7 @@ img {
     font-weight: bold;
 }
 .zwgk-left-content {
-    width: 65%;
+    width: 69.3%;
 }
 .zwgk-right-content {
     width: 25%;
@@ -314,14 +324,14 @@ img {
     width: 14%;
 }
 .zwgk-right-content .zwgk-line {
-    margin-top: 5%;
+    margin-top: 5.45%;
 }
 .zwgk-list-wrapper {
     background: #fff;
 }
 .zwgk-list {
     width: 100%;
-    padding: 22% 0 2% 25%;
+    padding: 22% 0 5% 25%;
     line-height: 45px;
 }
 .zwgk-list-icon {
@@ -338,9 +348,10 @@ img {
 .fwjl-wrapper {
     width: 100%;
     margin: 5% auto;
+    padding: 0 2.5%;
 }
 .zwfw-wrapper {
-    width: 45%;
+    width: 47.8%;
 }
 .zwfw-title-wrapper {
     padding-left: 4.2%;
@@ -383,7 +394,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5.5%;
+    margin-top: 5.7%;
     margin-left: 2%;
     margin-bottom: 3%;
     padding: 2% 6%;
@@ -431,7 +442,7 @@ img {
 .more-zx {
     text-align: right;
     padding-right: 2%;
-    margin-bottom: 3%;
+    margin-bottom: 2.5%;
 }
 .more-zx a,.more-zx a:link,.more-zx a:hover,.more-zx a:visited,.more-zx a:active {
     color: #386bdc;
@@ -444,7 +455,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5% 0;
+    padding: 5% 2.3% 5% 3.2%;
 }
 .web-info {
     background: #5e89ea;
@@ -511,7 +522,7 @@ img {
 }
 .linknav {
     width: 100%;
-    padding: 1% 2%;
+    padding: 1% 5.3%;
 }
 
 .linknav > li {
@@ -519,7 +530,7 @@ img {
     line-height: 30px;
     padding: 0 3.5% 0.3% 0;
     float: left;
-    margin-right: 4.9%;
+    margin-right: 4.1%;
     background: url(../img/hide.png) no-repeat right;
     color: #fff;
     font-size: 16px;
@@ -598,11 +609,12 @@ img {
     background-size: 100% 100%;
 }
 .footer-content {
-    max-width: 1170px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
     color: #000;
+    padding: 0 2.5%;
 }
 .dzjg-icon {
     margin-top: -12px;
@@ -644,7 +656,25 @@ img {
     color: #fff;
 }
 
+/* 专用于除PC外的tap栏点击切换或者是点击跳转问题处理 */
+.notpc {
+    display: none;
+}
+.pc {
+    display: block;
+}
+
 @media screen and (max-width: 1025px) {
+    a.a:hover,a:active,a:hover,a:visited {
+        text-decoration: none;
+    }
+    /* 专用于除PC外的tap栏点击切换或者是点击跳转问题处理 */
+    .notpc {
+        display: block;
+    }
+    .pc {
+        display: none;
+    }
     .swiper1-wrapper {
         width: 100%;
         transform: translateX(15%);
@@ -657,6 +687,18 @@ img {
         margin: 0 auto;
         padding: 0 1% 2.5% 1%;
     }
+    .padShow {
+        display: block;
+    }
+    .dzjg-icon {
+        width: 50%;
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    .bgt {
+        width: 50%;
+        text-align: left;
+    }
 }
 @media screen and (max-width: 769px) {
     .bottomline {
@@ -664,6 +706,9 @@ img {
     }
     .swiper1-wrapper {
         transform: translateX(3.5%);
+    }
+    .padShow {
+        display: none;
     }
 }
 @media screen and (max-width: 600px) {
@@ -708,6 +753,7 @@ img {
         width: 15%;
         font-size: 22px;
         font-weight: bold;
+        line-height: 25px;
     }
     .content-bg1 {
         background: none;
@@ -825,6 +871,10 @@ img {
     .gzzx {
         background: #fff;
         margin: 0 1%;
+    }
+    .linknav {
+        width: 100%;
+        padding: 1% 0;
     }
     .linknav li:nth-of-type(even) {
         margin-right: 0;
