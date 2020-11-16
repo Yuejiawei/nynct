@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> 农业农村厅首页 </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/zScroll.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="css/yngk.css">
+    <script type="text/javascript" src="../js/swiper.min.js"></script>
+    <!--- -[if (gte IE 6)&(lte IE 8)]-->
+    <!-- 增加css3部分属性支持 -->
+    <script type="text/javascript" src="../js/selectivizr-min.js"></script>
+    <!--[endif]- --->
+    <script type="text/javascript" src="../js/selectivizr-min.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+</head>
+<body>
+<!-- 轮播图显示 -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/yngk_banner1.png"></div>
+        <div class="swiper-slide"><img src="img/yngk_banner2.png"></div>
+        <div class="swiper-slide"><img src="img/yngk_banner3.png"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable :true
+        },
+        observer:true,
+        observeParents:true
+    })
+</script>
+<!-- 轮播图上的农业农村banner显示 -->
+<div class="swiper-content">
+    <div class="top">
+        <div class="top1-comW">
+            <div class="comW_1 clearfix ohd">
+                <div class="top-title fl">
+                    <a href="#">云南省人民政府网</a>
+                </div>
+                <div class="top-setting fr"> <a href="javascript:fycnPage();" id="fycn">简</a> | <a href="javascript:fytwPage();" id="fytw">繁</a> | <a href="#" target="_blank">无障碍浏览</a> </div>
+                <div class="space"></div>
+            </div>
+        </div>
+        <div class="top2-comW">
+            <div class="comW_1 clearfix ohd">
+                <div class="top-logo fl">
+                    <a href="#"><img src="img/nync_logo_white.png" /></a>
+                </div>
+                <div class="top-searandnav fr">
+                    <div class="top-search fr">
+                        <input name="keyword" type="text" class="search-input" id="textfield" onkeydown="if(event.keyCode===13){submitsearch();}" onfocus="if(this.value==='请输入关键字'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键词';}" placeholder="请输入关键字" />
+                        <div id="btn_submit" class="search-icon" onclick="submitsearch()"></div>
+                    </div>
+                    <div class="space"></div>
+                    <div class="top-nav yh">
+                        <ul class="pcShow">
+                            <li class="column1 column2 fl">
+                                <a href="" target="_blank">首页</a>
+                                <div class="bottomline"></div>
+                            </li>
+                            <li class="column1 fl">
+                                <a href="" target="_blank">政务公开</a>
+                                <div class="bottomline dn"></div>
+                            </li>
+                            <li class="column1 fl">
+                                <a href="../bsfw/bsfw.html" target="_blank">办事服务</a>
+                                <div class="bottomline dn"></div>
+                            </li>
+                            <li class="column1 fl">
+                                <a href="../hdjl/hdjl.html" target="_blank">互动交流</a>
+                                <div class="bottomline dn"></div>
+                            </li>
+                            <li class="column1 column3 fl">
+                                <a href="" target="_blank">云农概况</a>
+                                <div class="bottomline dn"></div>
+                            </li>
+                            <li class="space0"></li>
+                        </ul>
+                    </div>
+                    <div class="top-nav yh">
+                        <div class="mobStyle mobShow">
+                            <div class="column4"><a href="/">首页</a></div>
+                            <div class="column4"><a href="">政务公开</a></div>
+                            <div class="column4"><a href="">办事服务</a></div>
+                            <div class="column4"><a href="">互动交流</a></div>
+                            <div class="column4"><a href="">云农概况</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top3-comW">
+            <div class="comW_1">
+                <div class="line1"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="zslb-wrapper">
+    <div class="comW_1 clearfix ohd">
+        <div class="zslb-title">
+            <img src="img/zslb.png">
+        </div>
+        <div class="zslb-left fl">
+            <div class="zwgk-content-list yh ohd clearfix">
+                <div class="content-list">
+                    <ul>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">禄丰：不动产登记“就近办” 群众告别“两头跑”</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">姚安：姚安县科技兴花 助农增收</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">昆明：实行“—场一策”全面推进大观篆新集贸市场提升</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">丽江:丽江市政府与三峡集团云南分公司签署战略合作协</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">昆明:昆明积极改善城乡人居环境</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li class="space0"></li>
+                    </ul>
+                    <div class="more clearfix notpc">
+                        <a href="#" target="_blank">更 多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zslb-left fr">
+            <div class="zwgk-content-list yh ohd clearfix">
+                <div class="content-list">
+                    <ul>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">禄丰：不动产登记“就近办” 群众告别“两头跑”</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">姚安：姚安县科技兴花 助农增收</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">昆明：实行“—场一策”全面推进大观篆新集贸市场提升</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">丽江:丽江市政府与三峡集团云南分公司签署战略合作协</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">昆明:昆明积极改善城乡人居环境</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li class="space0"></li>
+                    </ul>
+                    <div class="more clearfix notpc">
+                        <a href="#" target="_blank">更 多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space0"></div>
+        <div class="more-zslb yh">查看更多州市联播&gt;&gt;</div>
+    </div>
+</div>
+<div class="hyxx-wrapper">
+    <div class="comW_1">
+        <div class="hyxx-title">
+            <img src="img/hyxx.png">
+        </div>
+        <div class="hyxx-list" id="hyxx-list" style="overflow: hidden;">
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="img/hyxx_nyl.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="img/hyxx_myl.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="img/hyxx_njl.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="img/hyxx_yyl.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="img/hyxx_zhl.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script>
+            // 行业信息轮播
+            $(function () {
+                var scroll = new zScroll({
+                    container: '#hyxx-list',
+                    previewNum: 5,
+                    autoplay: true,
+                    pagination: false,
+                    space:60,
+                    breakpoints: {
+                        // 若宽度小于768
+                        768: {
+                            previewNum: 2,
+                            space: 0
+                        }
+                    }
+                })
+            });
+        </script>
+    </div>
+</div>
+<div class="ynsp-wrapper clearfix ohd">
+    <div class="video-wrapper fl">
+        <div class="video">
+            <video src="video/2.mp4"  controls="controls" poster="" autoplay="autoplay" width="960" height="565"></video>
+        </div>
+        <div class="video-img dn"></div>
+
+    </div>
+    <div class="ynsp-content-wrapper fl yh">
+        <div class="ynsp-content">
+            <div class="ynsp-title">
+                <img src="img/ynsp.png">
+            </div>
+            <div class="ynsp-item-wrapper clearfix ohd">
+                <div class="ynsp-img fl">
+                    <img src="img/bcg.png">
+                </div>
+                <div class="ynsp-item-content fl">
+                    <div class="ynsp-img-1 fl"><img src="img/icon-rect.png"></div>
+                    <div class="bcg-text fl">
+                        <span class="bcg fl">|保春耕|</span>
+                        实行“一场一策”全面推进大观篆新集贸市场提升
+                        <span class="bcg-date">2020-04-16</span>
+                    </div>
+                    <div class="space0"></div>
+                    <div class="icon-play"><img src="img/play_1.png"></div>
+                </div>
+                <div class="space0"></div>
+                <div class="line7"></div>
+            </div>
+            <div class="ynsp-item-wrapper clearfix ohd">
+                <div class="ynsp-img fl">
+                    <img src="img/bcg.png">
+                </div>
+                <div class="ynsp-item-content fl">
+                    <div class="ynsp-img-1 fl"><img src="img/icon-rect.png"></div>
+                    <div class="bcg-text fl">
+                        <span class="bcg fl">|保春耕|</span>
+                        实行“一场一策”全面推进大观篆新集贸市场提升
+                        <span class="bcg-date">2020-04-16</span>
+                    </div>
+                    <div class="space0"></div>
+                    <div class="icon-play"><img src="img/play_1.png"></div>
+                </div>
+                <div class="space0"></div>
+                <div class="line7"></div>
+            </div>
+            <div class="ynsp-item-wrapper clearfix ohd">
+                <div class="ynsp-img fl">
+                    <img src="img/bcg.png">
+                </div>
+                <div class="ynsp-item-content fl">
+                    <div class="ynsp-img-1 fl"><img src="img/icon-rect.png"></div>
+                    <div class="bcg-text fl">
+                        <span class="bcg fl">|保春耕|</span>
+                        实行“一场一策”全面推进大观篆新集贸市场提升
+                        <span class="bcg-date">2020-04-16</span>
+                    </div>
+                    <div class="space0"></div>
+                    <div class="icon-play"><img src="img/play_1.png"></div>
+                </div>
+                <div class="space0"></div>
+            </div>
+            <div class="more-ynsp">
+                查看更多云农视频 >>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="scdt-wrapper">
+    <div class="comW_1 clearfix ohd">
+        <div class="scdt-title">
+            <img src="img/ynsp.png">
+        </div>
+        <div class="zslb-left fl">
+            <div class="zwgk-content-list yh ohd clearfix">
+                <div class="content-list">
+                    <ul>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">禄丰：不动产登记“就近办” 群众告别“两头跑”</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">姚安：姚安县科技兴花 助农增收</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">昆明：实行“—场一策”全面推进大观篆新集贸市场提升</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">丽江:丽江市政府与三峡集团云南分公司签署战略合作协</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li>
+                            <div class="tab-text-title fl">
+                                <img class="title-icon" src="img/icon-rect.png" />
+                                <a href="#">昆明:昆明积极改善城乡人居环境</a>
+                            </div>
+                            <div class="tab-text-date fr">2020-04-16</div>
+                        </li>
+                        <li class="space0"></li>
+                    </ul>
+                    <div class="more clearfix notpc">
+                        <a href="#" target="_blank">更 多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scdt-right fr">
+            <div class="scdt-img-wrapper">
+                <div class="scdt-img-1 fl"><img src="img/scdt_1.png"></div>
+                <div class="scdt-img-2 fl"><img src="img/scdt_2.png"></div>
+                <div class="scdt-img-3 fl"><img src="img/scdt_3.png"></div>
+                <div class="space0"></div>
+            </div>
+            <div class="more-scdt ht">点击查看数据</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery.zScroll.2.8.min.js"></script>
+<script type="text/javascript" src="../js/accordion.js"></script>
+<script type="text/javascript" src="../js/tw_cn.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+</body>
+</html>

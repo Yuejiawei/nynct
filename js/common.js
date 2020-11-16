@@ -146,7 +146,7 @@ $(function () {
         previewNum: 4,
         autoplay: true,
         pagination: false,
-        space:33,
+        space:40,
         breakpoints: {
             // 若宽度小于768
             768: {
