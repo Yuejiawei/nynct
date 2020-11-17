@@ -1,7 +1,13 @@
-.content-page {
-    padding: 2.8% 2.5% 2.5% 2.5%;
+.content {
+    background: #f6f6f6;
 }
-.xxzx img:nth-of-type(1) {
+.content-rect {
+    margin-bottom: 4%;
+}
+.content-page {
+    padding: 2.8% 2.5% 3% 2.5%;
+}
+.xxzx a:nth-of-type(1) img:nth-of-type(1) {
     margin-right: 4.3%;
 }
 .xwfb {
@@ -29,6 +35,10 @@
     -webkit-line-clamp: 3;
     word-break: break-all;
     -webkit-box-orient: vertical;
+    color: #666;
+}
+.zhuti-text a,.zhuti-text a:link,.zhuti-text a:hover,.zhuti-text a:active,.zhuti-text a:visited {
+    color: #666;
 }
 .faburen-text {
     width: 77.5%;
@@ -40,11 +50,18 @@
     -webkit-line-clamp: 2;
     word-break: break-all;
     -webkit-box-orient: vertical;
+    color: #666;
+}
+.faburen-text a,.faburen-text a:link,.faburen-text a:hover,.faburen-text a:active,.faburen-text a:visited {
+    color: #666;
 }
 .more-xwfb {
     margin-top: 2%;
     color: #386bdc;
     text-align: right;
+}
+.more-xwfb a,.more-xwfb a:link,.more-xwfb a:hover,.more-xwfb a:active,.more-xwfb a:visited {
+    color: #386bdc;
 }
 .lyhf {
     text-align: center;
@@ -120,7 +137,7 @@
 }
 .lyhf-tj {
     width: 47%;
-    margin-top: 1%;
+    margin-top: 0.8%;
     background: #f6f6f6;
     padding: 2%;
     font-weight: bold;
@@ -132,5 +149,8 @@
 }
 .lyhf-more {
     margin-top: 3%;
+    color: #386bdc;
+}
+.lyhf-more a,.lyhf-more a:link,.lyhf-more a:hover,.lyhf-more a:active,.lyhf-more a:visited {
     color: #386bdc;
 }

@@ -1,6 +1,6 @@
 // 记录首页下划线导航栏的index，默认为0,办事服务为2
 topIndex = 2
-getCurrentIndex(topIndex)
+getCurrentIndex()
 
 // 办事服务鼠标悬浮操作
 $('.bsfw .bsfw_item').hover(function (){

@@ -39,6 +39,9 @@
     padding: 4% 0;
     text-align: center;
 }
+.yypt-list {
+    margin-bottom: 3%;
+}
 .row img {
     box-shadow: 0 0 10px #ededed;
 }
