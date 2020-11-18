@@ -123,10 +123,10 @@
     //  }
 
       // page numbers
-     // if (_self.options.pageNumbers) {
-     //   pagination.push(_self.pagination('pageNumbers', 
-  //  _self.currentPage));
-//      }
+   //   if (_self.options.pageNumbers) {
+   //     pagination.push(_self.pagination('pageNumbers',
+   // _self.currentPage));
+   //   }
 
       return pagination;
     },
