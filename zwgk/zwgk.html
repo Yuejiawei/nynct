@@ -2966,7 +2966,7 @@
         console.log($(this).next("ul").is(":hidden"))
         $(this).addClass("on").siblings("h3").removeClass("on");
         $(this).next("ul").slideDown().siblings("ul").slideUp();
-        $('.scroll_main').hide().siblings('.scroll_main').eq(16).show()
+        $('.scroll_main').hide().siblings('.scroll_main').eq(20).show()
       }else {
         return true
       }
@@ -2979,7 +2979,7 @@
       }else {
         var index = $(this).index()
         $(this).addClass('active').siblings('li').removeClass('active')
-        $('.scroll_main').hide().siblings('.scroll_main').eq(16+index).show()
+        $('.scroll_main').hide().siblings('.scroll_main').eq(20+index).show()
       }
       e.preventDefault()
       e.stopPropagation()
