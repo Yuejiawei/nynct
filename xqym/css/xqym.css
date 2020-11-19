@@ -1,0 +1,138 @@
+.content {
+    background: #f6f6f6;
+}
+.content-rect {
+    margin-top: 3.5%;
+    margin-bottom: 3.8%;
+}
+.daohang {
+    color: #666;
+    text-align: left;
+    padding: 0.2% 0 0 2.2%;
+}
+.nav img {
+    vertical-align: -24%;
+}
+.wordC1 {
+    padding-left: 0.5%;
+}
+.wordC1 a, .wordC1 a:link, .wordC1 a:visited {
+    color: #666;
+}
+.wordC2 {
+    color: #213f93;
+}
+.wordC2 a, .wordC a:link, .wordC a:visited {
+    color: #213f93;
+}
+.xqym-title {
+    width: 84.3%;
+    margin: 0 auto;
+    font-size: 31px;
+    line-height: 60px;
+    color: #1a1a1a;
+    margin-top: 5.4%;
+    text-align: center;
+}
+.xqym-ejtitle {
+    width: 84.3%;
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+    margin: 2.1% auto 3.5% auto;
+}
+.lyrqzt {
+    width: 84.3%;
+    font-size: 14px;
+    color: #666666;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dbdbdb;
+    margin: 3.6% auto 3.6% auto;
+    line-height: 40px;
+    text-align: center;
+}
+.fsw {
+    margin-left: 40px;
+}
+.fsw span{
+    cursor: pointer;
+}
+.mart {
+    width: 84.3%;
+    margin: 0 auto;
+    text-align: center;
+}
+.mart p {
+    text-indent: 2em;
+    color: #333;
+    line-height: 34px;
+    font-size: 16px;
+}
+.sbt {
+    width: 84.3%;
+    margin: 4.8% auto 2.3% auto;
+    text-align: right;
+    background-color: #ebebeb;
+    color: #d3d3d3;
+    padding: 10px 70px 10px 0;
+}
+.sbt input {
+    color: #666;
+    margin-top: -5px;
+}
+.bshare-custom {
+    font-size: 13px;
+    line-height: 16px !important;
+}
+div.bshare-custom .bsPromo.bsPromo2 {
+    background: url(http://static.bshare.cn/frame/images/bshare_promo_sprite.gif) no-repeat;
+    cursor: pointer;
+}
+a.bshareDiv .bsPromo, div.bshare-custom .bsPromo {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+.bshare-custom .bshare-weixin {
+    background: url(http://static.bshare.cn/frame/images/logos/s4/weixin.png) no-repeat;
+    *display: inline;
+    display: inline-block;
+}
+.bshare-custom a {
+    padding-left: 19px;
+    height: 16px;
+    _height: 18px;
+    text-decoration: none;
+    display: none;
+    zoom: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #333;
+    margin-right: 3px;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+.bshare-custom .bshare-sinaminiblog {
+    background: url(http://static.bshare.cn/frame/images/logos/s4/sprite/top_logos_sprite.png) no-repeat 0 -270px;
+    *display: inline;
+    display: inline-block;
+}
+.bshare-custom .bshare-tencentminiblog {
+    background: url(http://static.bshare.cn/frame/images/logos/s4/sprite/top_logos_sprite.png) no-repeat 0 -270px;
+    *display: inline;
+    display: inline-block;
+}
+.bshare-custom .bshare-more.more-style-addthis {
+    background: url(http://static.bshare.cn/frame/images/logos/s4/more-style-addthis.png) no-repeat;
+}
+.bshare-custom #bshare-more-icon, .bshare-custom .bshare-more-icon {
+    background: url(http://static.bshare.cn/frame/images/logos/s4/more.png) no-repeat;
+    padding-left: 19px !important;
+}
+.bshare-custom .bshare-more {
+    padding-left: 0 !important;
+    color: #333 !important;
+    *display: inline;
+    display: inline-block;
+}

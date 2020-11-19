@@ -1,0 +1,99 @@
+.content {
+    background: #f6f6f6;
+}
+.content-rect {
+    margin-top: 3.5%;
+}
+.daohang {
+    color: #666;
+    text-align: left;
+    padding: 0.2% 0 0 2.2%;
+}
+.nav img {
+    vertical-align: -24%;
+}
+.wordC1 {
+    padding-left: 0.5%;
+}
+.wordC1 a, .wordC1 a:link, .wordC1 a:visited {
+    color: #666;
+}
+.wordC2 {
+    color: #213f93;
+}
+.wordC2 a, .wordC a:link, .wordC a:visited {
+    color: #213f93;
+}
+.zxwj-list-wrapper {
+    position: relative;
+    margin: 3% auto 0 auto;
+}
+
+.zxwj-list-ul {
+    padding: 0 5.8%;
+}
+.zxwj-list-ul li {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 17px;
+    line-height: 40px;
+    width: 100%;
+    height: auto;
+}
+.zxwj-list-ul li::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    line-height: 30px;
+    background: #163e94;
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+.zxwj-list-ul li span:nth-child(1) {
+    float: left;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    color: #4d4d4d;
+    margin-left: 2%;
+}
+.zxwj-list-ul li span a, .zxwj-list-ul li span a:link, .zxwj-list-ul li span a:visited {
+    color: #424242;
+    text-decoration: none;
+}
+.zxwj-list-ul li span a:hover {
+    color: #163e94;
+    text-decoration: none;
+}
+.zxwj-list-ul li span:nth-child(2) {
+    float: right;
+    font-size: 17px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: #999;
+}
+.line8 {
+    margin: 2.8% 5.8%;
+    border-bottom: 4px solid #f0f0f0;
+}
+.zxwj-list-page {
+    text-align: center;
+}
+.pagination .active {
+    font-size: 16px;
+}
+.zxwj-list-page .prev a {
+    margin-right: 15px;
+}
+.zxwj-list-page .page a {
+    margin-right: 8px;
+}
+.zxwj-list-page .next a {
+    margin-left: 7px;
+}
