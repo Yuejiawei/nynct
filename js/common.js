@@ -11,8 +11,6 @@ function findIndex (index) {
     return index;
 }
 
-
-
 // 网址导航
 $('.linknav>li').hover(function(){
     // var index = $(this).index();
@@ -21,6 +19,29 @@ $('.linknav>li').hover(function(){
 },function(){
     $(this).removeClass('cur');
 });
+// 前提是执行完pushInfoJsonpCallBack后必须引入bt.jsonp文件
+function pushInfoJsonpCallBack(res){
+    var gwybmwzStr = '国务院部门网站<ul>';
+    var gsszfwzStr = '各省市政府网站<ul>';
+    var szfbmwzStr = '省政府部门网站<ul>';
+    $.each(res, function(i, o){
+        if (o.cat === '国务院部门网站') {
+            gwybmwzStr += '<li><a href="'+o.link+'">'+o.name+'</a></li>';
+        }
+        if (o.cat === '各省市政府网站') {
+            gsszfwzStr += '<li><a href="'+o.link+'">'+o.name+'</a></li>';
+        }
+        if (o.cat === '省政府部门网站') {
+            szfbmwzStr += '<li><a href="'+o.link+'">'+o.name+'</a></li>';
+        }
+    });
+    gwybmwzStr += '</ul>';
+    gsszfwzStr += '</ul>';
+    szfbmwzStr += '</ul>';
+    $('.linknav li.gwybmwz').html(gwybmwzStr);
+    $('.linknav li.gsszfwz').html(gsszfwzStr);
+    $('.linknav li.szfbmwz').html(szfbmwzStr);
+}
 // 首页banner导航
 function getCurrentIndex() {
     $('.top-nav ul li').hover(function (){

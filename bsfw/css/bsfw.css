@@ -1,4 +1,4 @@
-.text-yiweweiben {
+.text-yirenweiben {
     margin: 8.9% 0 8.9% 12.3%;
 }
 .content-ynzww {
@@ -44,5 +44,24 @@
 }
 .row img {
     box-shadow: 0 0 10px #ededed;
+}
+@media screen and (max-width: 600px) {
+    .content-bg1 {
+        width: 100%;
+        background: #6c9322;
+        opacity: 0.8;
+    }
+    .text-yirenweiben {
+        width: 100%;
+        margin: 5% auto;
+        padding: 0 5%;
+    }
+    .zwfww {
+        width: 100%;
+        margin: 3% auto;
+        text-align: center;
+        padding: 0;
+        border: none;
+    }
 }
 

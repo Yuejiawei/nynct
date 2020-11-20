@@ -538,7 +538,7 @@ img {
 }
 .linknav {
     width: 100%;
-    padding: 1% 5.3%;
+    padding: 1% 2.4%;
 }
 
 .linknav > li {
@@ -546,7 +546,7 @@ img {
     line-height: 30px;
     padding: 0 3.5% 0.3% 0;
     float: left;
-    margin-right: 4.1%;
+    margin-right: 4.5%;
     background: url(../img/hide.png) no-repeat right;
     color: #fff;
     font-size: 16px;
@@ -554,6 +554,7 @@ img {
 }
 .linknav li:last-of-type {
     margin-right: 0;
+    padding-right: 5.2%;
 }
 .linknav li:last-of-type ul {
     width: auto;
@@ -616,11 +617,11 @@ img {
     display: block;
 }
 .footer {
-    padding: 1% 0;
+    padding: 0.6% 0;
     background: #3657b8;
 }
 .mask {
-    padding: 2% 0;
+    padding: 0.2% 0;
     background: url(../img/mask.png) no-repeat center top;
     background-size: 100% 100%;
 }
@@ -634,42 +635,49 @@ img {
 }
 .dzjg-icon {
     margin-top: -12px;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 22px;
     float: left;
 }
 .bgt {
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 34px;
     float: left;
 }
 .bqxx {
     margin-top: -12px;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 38px;
     display: flex;
     flex-direction: row;
     float: left;
     color: #fff;
+    font-size: 12px;
 }
 .line6 {
     border-right: 1px solid #8196d2;
-    margin: 0 21px;
+    margin: 3px 21px;
 }
 .zbdw {
     line-height: 24px;
+    margin: 0 27px;
 }
 .zbdw a,.zbdw a:link,.zbdw a:hover,.zbdw a:active,.zbdw a:visited{
     color: #fff;
 }
 .jszc {
     line-height: 24px;
+    margin: 0 12px 0 16px;
 }
 .baxx  {
     line-height: 24px;
+    margin-left: 25px;
 }
 .dgwa {
     padding-top: 0.4%;
 }
 .baxx a,.baxx a:hover,.baxx a:link,.baxx a:active,.baxx a:visited {
     color: #fff;
+}
+.bsm {
+    margin-left: 17%;
 }
 
 /* 专用于除PC外的tap栏点击切换或者是点击跳转问题处理 */
