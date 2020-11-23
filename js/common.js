@@ -177,19 +177,28 @@ $(function () {
         }
     })
 });
+
+// 判断是否为手机端
+function isPhone () {
+    var sUserAgent = navigator.userAgent.toLowerCase();
+    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+        return false;
+    } else {
+        return true;
+    }
+}
 browserRedirect()
 // 手机端的导航栏切换
 function browserRedirect() {
-    var sUserAgent = navigator.userAgent.toLowerCase();
-    var bIsIpad = sUserAgent.match(/ipad/i) === "ipad";
-    var bIsIphoneOs = sUserAgent.match(/iphone os/i) === "iphone os";
-    var bIsMidp = sUserAgent.match(/midp/i) === "midp";
-    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) === "rv:1.2.3.4";
-    var bIsUc = sUserAgent.match(/ucweb/i) === "ucweb";
-    var bIsAndroid = sUserAgent.match(/android/i) === "android";
-    var bIsCE = sUserAgent.match(/windows ce/i) === "windows ce";
-    var bIsWM = sUserAgent.match(/windows mobile/i) === "windows mobile";
-    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+    if (isPhone()){
         // 云农快讯、信息联播选项卡切换
         $('.swiper-tab span').hover(function () {
             var index = findIndex($(this).index());

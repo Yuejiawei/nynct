@@ -97,3 +97,45 @@
 .zxwj-list-page .next a {
     margin-left: 7px;
 }
+@media screen and (max-width: 600px) {
+    .daohang {
+        color: #666;
+        text-align: left;
+        padding: 2.2% 0 0 0.2%;
+        font-size: 14px;
+    }
+    .zxwj-list-ul {
+         padding: 0;
+    }
+    .zxwj-list-ul li span:nth-child(1) {
+        width: 76%;
+        margin-left: 3%;
+        font-size: 14px;
+    }
+    .zxwj-list-ul li span:nth-child(2) {
+        float: right;
+        font-size: 13px;
+        margin-left: 0;
+        font-weight: 100;
+        color: #999;
+    }
+    .pagination .active {
+        font-size: 14px;
+    }
+    .zxwj-list-page {
+        font-size: 14px;
+        font-family: SimSun;
+    }
+    .zxwj-list-page .page a {
+        margin-right: 5px;
+    }
+    .zxwj-list-page .prev a {
+        margin-right: 11px;
+    }
+    .zxwj-list-page .next a {
+        margin-left: 6px;
+    }
+    .active {
+        font-size: 14px;
+    }
+}

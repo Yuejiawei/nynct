@@ -1,0 +1,72 @@
+.content {
+    background: #f6f6f6;
+}
+.content-rect {
+    margin-top: 3.5%;
+}
+.content-page {
+    padding: 2.5% 2.5% 4.2% 2.5%;
+}
+.daohang {
+    color: #666;
+    text-align: left;
+    padding: 0.2% 0 0 2.2%;
+}
+.nav img {
+    vertical-align: -24%;
+}
+.wordC1 {
+    padding-left: 0.5%;
+}
+.wordC1 a, .wordC1 a:link, .wordC1 a:visited {
+    color: #666;
+}
+.wordC2 {
+    color: #213f93;
+}
+.wordC2 a, .wordC a:link, .wordC a:visited {
+    color: #213f93;
+}
+.wzdt-wrapper {
+    width: 92.2%;
+    margin-top: 2.8%;
+    position: relative;
+}
+.border-line {
+    position: absolute;
+    border-left: 4px solid #75a31b;
+    top: 32%;
+    margin-left: 3.8%;
+    width: 4px;
+    height: 25px;
+}
+.shouye_wrapper {
+    width: 100%;
+    margin: 0.2% 0 3.7% 4.1%;
+    background: #f0f0f0;
+    padding: 1.8% 0 1.8% 4.5%;
+}
+.shouye {
+    font-size: 21px;
+    font-weight: bold;
+    padding-right: 4.5%;
+    color: #333;
+}
+.shouye-content {
+    width: 50%;
+    margin: 0 auto;
+}
+.shouye-content span {
+    font-size: 18px;
+    padding: 0 2.7%;
+    color: #333;
+}
+.shouye-content span a,.shouye-content span a:link,.shouye-content span a:active,
+.shouye-content span a:visited {
+    text-decoration: none;
+    color: #333;
+}
+.shouye-content span a:hover {
+    text-decoration: none;
+    color: #2d5edd;
+}

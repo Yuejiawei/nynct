@@ -90,3 +90,34 @@
 .ztzl_page .next a {
     margin-left: 7px;
 }
+@media screen and (max-width: 600px) {
+    .hlwjdc-img {
+        width: 100%;
+    }
+    .hlwjdc-text {
+        width: 100%;
+    }
+    .ztzl-item-text {
+        padding-top: 6%;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: #333;
+        line-height: 16px;
+    }
+    .ztzl_page {
+        font-size: 14px;
+    }
+    .ztzl_page .page a {
+        margin-right: 5px;
+    }
+    .ztzl_page .prev a {
+        margin-right: 11px;
+    }
+    .ztzl_page .next a {
+        margin-left: 6px;
+    }
+    .active {
+        font-size: 14px;
+    }
+}

@@ -8,7 +8,9 @@ $('.fsw span').click(function(){
             _ft += 2;
         }
     }else if(cName === "s"){
-        _ft -= 2;
+        if(_ft >= 14) {
+            _ft -= 2;
+        }
     }else if(cName === 'm'){
         _ft = 16;
     }

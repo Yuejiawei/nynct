@@ -136,3 +136,30 @@ a.bshareDiv .bsPromo, div.bshare-custom .bsPromo {
     *display: inline;
     display: inline-block;
 }
+@media screen and (max-width: 600px) {
+    .daohang {
+        color: #666;
+        text-align: left;
+        padding: 2.2% 0 0 0.2%;
+        font-size: 14px;
+    }
+    .xqym-title {
+        width: 98%;
+        font-size: 25px;
+        text-align: left;
+    }
+    .xqym-ejtitle {
+        font-size: 19px;
+    }
+    .fsw {
+        margin-left: 0;
+    }
+    .mart {
+        width: 98%;
+    }
+    .sbt {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+}
