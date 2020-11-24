@@ -195,6 +195,23 @@ function isPhone () {
         return true;
     }
 }
+// 分页集成
+function paginate(obj,insertObj=obj, num=3) {
+    // 云农视频分页
+    $(obj).paginathing({
+        perPage: num,
+        insertAfter: insertObj,
+        pageNumbers:false,
+        containerClass: 'zxwj-list-page',
+        prevNext:true,
+        firstLast:true,
+        prevText: " < 上一页",
+        nextText: "下一页 > ",
+        firstText:'首页',
+        lastText:'尾页',
+        limitPagination:5,
+    })
+}
 browserRedirect()
 // 手机端的导航栏切换
 function browserRedirect() {

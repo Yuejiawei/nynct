@@ -6,6 +6,7 @@
 }
 .content-page {
     padding: 2.5% 2.5% 4.2% 2.5%;
+    margin-bottom: 4.8%;
 }
 .daohang {
     color: #666;
@@ -69,4 +70,13 @@
 .shouye-content span a:hover {
     text-decoration: none;
     color: #2d5edd;
+}
+@media screen and (max-width: 600px) {
+    .shouye {
+        font-size: 18px;
+    }
+    .shouye-content span {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }

@@ -1,0 +1,1 @@
+paginate('.table tbody','.table', 6);

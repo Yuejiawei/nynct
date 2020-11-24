@@ -1,0 +1,87 @@
+.content {
+    background: #f6f6f6;
+}
+.content-rect {
+    margin-top: 3.5%;
+}
+.content-page {
+    padding: 2.5% 2.5% 4% 2.5%;
+    margin-bottom: 0;
+}
+.daohang {
+    color: #666;
+    text-align: left;
+    padding: 0.2% 0 0 2.2%;
+}
+.nav img {
+    vertical-align: -24%;
+}
+.wordC1 {
+    padding-left: 0.5%;
+}
+.wordC1 a, .wordC1 a:link, .wordC1 a:visited {
+    color: #666;
+}
+.wordC2 {
+    color: #213f93;
+}
+.wordC2 a, .wordC a:link, .wordC a:visited {
+    color: #213f93;
+}
+.yhxz-title {
+    margin: 1.8% auto;
+    text-align: center;
+    font-size: 31px;
+    color: #1a1a1a;
+}
+.yhxz-wrapper {
+    margin-top: 2%;
+    margin-left: 11%;
+    line-height: 33px;
+    color: #333;
+}
+.yhxz-content-title {
+    font-weight: bold;
+    text-align: left;
+    text-indent: 0;
+}
+.yhxz-content-text {
+    text-align: left;
+    text-indent: 0;
+}
+.agree-wrapper {
+    margin-left: 13.2%;
+    margin-top: 1.2%;
+}
+.agree-wrapper input[type="checkbox"]{
+    width: 21px;
+    height: 21px;
+    border: 2px solid #aaaaaa;
+    border-radius: 0;
+    cursor: pointer;
+}
+.agree-text {
+    margin-top: 0.2%;
+    margin-left: 1.4%;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.queding {
+    text-align: right;
+    margin: -1% 9.5% 3% 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px){
+    .yhxz-wrapper {
+        margin-left: 0;
+    }
+    .agree-text {
+        margin-top: 1%;
+    }
+    .queding {
+        text-align: center;
+        margin: 0;
+        padding: 1%;
+    }
+}

@@ -1,0 +1,30 @@
+.content {
+    background: #f6f6f6;
+}
+.content-rect {
+    margin-top: 3.5%;
+}
+.content-page {
+    padding: 2.5% 2.5% 3.5% 2.5%;
+    margin-bottom: 5%;
+}
+.daohang {
+    color: #666;
+    text-align: left;
+    padding: 0.2% 0 0 2.2%;
+}
+.nav img {
+    vertical-align: -24%;
+}
+.wordC1 {
+    padding-left: 0.5%;
+}
+.wordC1 a, .wordC1 a:link, .wordC1 a:visited {
+    color: #666;
+}
+.wordC2 {
+    color: #213f93;
+}
+.wordC2 a, .wordC a:link, .wordC a:visited {
+    color: #213f93;
+}
