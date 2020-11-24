@@ -28,3 +28,25 @@
 .wordC2 a, .wordC a:link, .wordC a:visited {
     color: #213f93;
 }
+.wyxx-wrapper {
+    width: 93.5%;
+    margin-top: 4%;
+}
+.name-wrapper {
+    margin-left: 5%;
+}
+.name-title {
+    font-size: 20px;
+    margin-top: 0.6%;
+}
+.name-title span {
+    color: red;
+}
+.wyxx-name-input {
+    /*width: 86.9%;*/
+    width: 45.5%;
+    border: 1px solid #000;
+    margin-left: 2.2%;
+    font-size: 16px;
+    padding: 0.8%;
+}
