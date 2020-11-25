@@ -117,13 +117,16 @@
 }
 .capture-button button {
     padding: 13.2% 11%;
-    background: #a8be7e;
+    background: #75a31b;
     outline: none;
     border: none;
     color: #fff;
     box-shadow: 0 0 20px #c8c8c8;
     border-radius: 10px;
     font-size: 18px;
+}
+.capture-button button:hover {
+    opacity: 0.8;
 }
 .login-button {
     width: 100%;

@@ -208,3 +208,91 @@
     font-weight: bold;
     margin-bottom: 6.1%;
 }
+
+@media screen and (max-width: 600px) {
+    .swiper-content {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        background: url(../../zwgk/images/nynczwxxgk_bg_1.png) no-repeat center top;
+        background-size: 100% 100%;
+    }
+    .column4 a, .column4 a:link, .column4 a:active, .column4 a:hover, .column4 a:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+    .zslb-left {
+        width: 100%;
+        padding: 1% 2.5%;
+    }
+    .content-list li .tab-text-title {
+        width: 75%;
+    }
+    .content-list li .tab-text-date {
+        margin-top: 0.3%;
+        width: 22%;
+    }
+    .notpc {
+        display: none;
+    }
+    .video-wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .video {
+
+    }
+    .video video {
+        width: 100%;
+        object-fit: fill;
+    }
+    .ynsp-content-wrapper {
+        width: 100%;
+    }
+    .ynsp-content {
+        width: 100%;
+    }
+    .ynsp-title {
+        margin: 0 0 5.1% 0;
+        padding-top: 5%;
+    }
+    .ynsp-item-wrapper {
+        padding: 0 2.5%;
+    }
+    .ynsp-img {
+        width: 100%;
+        text-align: center;
+    }
+    .ynsp-item-content {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+        line-height: 27px;
+    }
+    .ynsp-img-1 {
+        width: 3.8%;
+        margin-top: 2.8%;
+    }
+    .bcg-text {
+        width: 96%;
+        margin-left: 0;
+        margin-top: 2.8%;
+    }
+    .more-ynsp {
+        margin-bottom: 0;
+        padding-bottom: 3%;
+    }
+    .scdt-right {
+        width: 100%;
+        padding: 0 2.5%;
+    }
+    .scdt-img-1,.scdt-img-2,.scdt-img-3 {
+        width: 100%;
+        text-align: center;
+        padding: 3% 0;
+    }
+    .more-scdt {
+        margin-bottom: 0;
+        padding-bottom: 3%;
+    }
+}

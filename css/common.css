@@ -906,6 +906,9 @@ img {
     .linknav > li {
         padding: 0 10% 0.3% 5%;
     }
+    .linknav li:last-of-type {
+        padding-right: 11.2%;
+    }
     .dzjg-icon {
         width: 50%;
         padding: 20px 0 0 0;
