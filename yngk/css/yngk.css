@@ -75,8 +75,6 @@
     margin-top: 6%;
 }
 .video-wrapper {
-    width: 960px;
-    height: 565px;
     position: relative;
 }
 .video {
@@ -101,11 +99,13 @@
 }
 .ynsp-content-wrapper {
     width: 49.5%;
+    /* width: 36.8%; */
     background: url(../img/wmyzcy.png) no-repeat center top;
     background-size: 100% 100%;
 }
 .ynsp-content {
     width: 63%;
+    /* width: 69%;   */
 }
 .ynsp-title {
     text-align: center;
