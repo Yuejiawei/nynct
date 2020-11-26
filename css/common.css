@@ -921,13 +921,14 @@ img {
     }
     .bqxx {
         float: none;
-        display: block;
-        padding: 20px 15px 0 15px;
+        display: inline;
+        padding: 0;
         text-align: center;
     }
     .zbdw {
         line-height: 24px;
-        margin: 0 25px;
+        margin: 0;
+        text-align: center;
     }
     .dgwa {
         padding-left: 50px;

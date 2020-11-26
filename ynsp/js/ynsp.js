@@ -12,7 +12,6 @@ $('.ynsp-guide span').click(function (){
         $(this).addClass('active').siblings().removeClass('active')
         var index = $(this).index()
         $('nav.zxwj-list-page').remove()
-        console.log(index)
         if(index === 1) {
             $(this).children('img').attr('src','img/rjhjpic_1.png')
             $(this).siblings().children('img').attr('src','img/kyqcsc.png')
@@ -31,7 +30,7 @@ $('.ynsp-guide span').click(function (){
                 $('.ynsp-video-wrapper4').hide().siblings('.ynsp-video-wrapper3').show()
                 paginate('.ynsp-video-wrapper3')
             }else{
-                $('.ynsp-video-wrapper1').hide().siblings('.ynsp-video-wrapper2').show()
+                $('.ynsp-video-wrapper2').hide().siblings('.ynsp-video-wrapper1').show()
                 paginate('.ynsp-video-wrapper1')
             }
 

@@ -168,8 +168,14 @@
     .capture-button button {
         padding: 11.2% 9.3%;
         margin-left: 8%;
+        font-size: 16px;
     }
     .dl-img {
         display: none;
+    }
+}
+@media screen and (max-width: 321px){
+    .capture-input {
+        width: 81.2%;
     }
 }

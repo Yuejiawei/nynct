@@ -22,7 +22,7 @@
     </div>
     <div class="yn_zwxxgk_top2">
       <a href="#">
-        <img src="images/zwxxgk_bt1.png">
+        <img src="images/zwxxgk_bt2.png">
       </a>
     </div>
   </div>
@@ -39,6 +39,7 @@
         </div>
       </div>
     </div>
+
     <!-- 侧边栏 -->
     <div class="dl_nav">
       <div class="dl_nav01">
@@ -76,6 +77,7 @@
             <br>公开制度
         </h3>
       </div>
+      <div class="space0"></div>
       <div class="dl_nav02">
         <div class="sideMenu">
           <h3>
@@ -206,7 +208,7 @@
     <!-- 政府信息公开指南 -->
     <div class="scroll_main">
       <div class="scroll_wrap">
-        <h1 style="font-size: 32pt;">政府信息公开指南1</h1>
+        <h1>政府信息公开指南1</h1>
         <div class="scroll_cont ScrollStyle">
           <div class="view zfxxgk_zn">
             <p>
@@ -2878,6 +2880,7 @@
     </div>
   </div>
 </div>
+
 <div class="web-info">
   <div class="comW_1 clearfix">
     <ul class="linknav yh clearfix">
@@ -3203,6 +3206,7 @@
     </div>
   </div>
 </div>
+
 <script src="../js/jquery.js"></script>
 <script type="text/javascript" src="js/zwgk.js"></script>
 <script type="text/javascript" src="../js/paginathing.js"></script>
@@ -3313,41 +3317,7 @@
       e.preventDefault()
       e.stopPropagation()
     })
-    // 侧边栏 折叠
-    // $(".dl_nav02 .sideMenu > h3 ").click(function () {
-    //     if ($(this).next("ul").is(":hidden")) {
-    //       $(this).addClass("on").siblings("h3").removeClass("on");
-    //       $(this).next("ul").slideDown().siblings("ul").slideUp();
-    //     } else {
-    //       $(this).removeClass("on");
-    //       $(this).next("ul").slideUp();
-    //     }
-    //     $(".dl_nav01 h3").removeClass("on");
-    // })
 
-    //侧边栏点击样式
-    // $(".dl_nav01 h3:nth-of-type(2)").click(function () {
-    //     if (!$(this).hasClass("on")) {
-    //         $(this).addClass("on").siblings().removeClass("on");
-    //     }
-    //     $(".sideMenu>h3").removeClass("on");
-    //     let elem = $(".sideMenu>h3");
-    //     for (let i = 0; i < elem.length; i++) {
-    //         if (!$(".sideMenu>h3").eq(i).next("ul").is(":hidden")) {
-    //             $(".sideMenu>h3").eq(i).next("ul").slideUp();
-    //         }
-    //     }
-    //
-    // })
-    // $(".zwxxgk_btn7").click(function () {
-    //     if ($(this).next("dl").is(":hidden")) {
-    //         $(this).find(".zwxxgk_bnt7").addClass("on");
-    //         $(this).next("dl").slideDown().siblings("ul").slideUp();
-    //     } else {
-    //         $(this).next("dl").slideUp();
-    //         $(this).find(".zwxxgk_bnt7").removeClass("on");
-    //     }
-    // })
     // 分页
     $('.table tbody').paginathing({
       perPage: 10,
