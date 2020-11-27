@@ -688,6 +688,12 @@ img {
     display: block;
 }
 
+/* 分页专用 */
+.zxwj-list-page {
+    text-align: center;
+    font-family: SimSun;
+}
+
 @media screen and (max-width: 1025px) {
     a.a:hover,a:active,a:hover,a:visited {
         text-decoration: none;
@@ -766,6 +772,10 @@ img {
     }
    .top-nav {
        margin-top: 3.5%;
+   }
+   .special-list {
+       width: 100%;
+       margin: 0;
    }
    .mobStyle {
        width: 100%;

@@ -98,23 +98,24 @@
                     </div>
                     <div class="ykdl-wrapper fl">
                         <div class="ykdl-title"><img src="img/ykdl.png"></div>
+                        <form>
+                            <div class="phone-input-box">
+                                <div class="phone-icon fl"></div>
+                                <input type="text" name="login" class="phone-input" id="login" maxlength="12" onfocus="if(this.value=='请输入手机号码'){this.value='';}" onblur="if(this.value=='请输入手机号码'){this.value='';}" placeholder="请输入手机号码">
+                            </div>
 
-                        <div class="phone-input-box">
-                            <div class="phone-icon fl"></div>
-                            <input type="text" name="login" class="phone-input" id="login" maxlength="12" onfocus="if(this.value=='请输入手机号码'){this.value='';}" onblur="if(this.value=='请输入手机号码'){this.value='';}" placeholder="请输入手机号码">
-                        </div>
-
-                        <div class="capture-input-box fl mobfl">
-                            <div class="capture-icon fl mobfl"></div>
-                            <input type="text" name="login" class="capture-input" id="capture" maxlength="6" onfocus="if(this.value=='请输入验证码'){this.value='';}" onblur="if(this.value=='请输入验证码'){this.value='';}" placeholder="请输入验证码">
-                        </div>
-                        <div class="capture-button fr mobfl">
-                            <button class="yh">发送验证码</button>
-                        </div>
-                        <div class="space0"></div>
-                        <div class="login-button">
-                            <button class="yh">登&ensp;录</button>
-                        </div>
+                            <div class="capture-input-box fl mobfl">
+                                <div class="capture-icon fl mobfl"></div>
+                                <input type="text" name="login" class="capture-input" id="capture" maxlength="6" onfocus="if(this.value=='请输入验证码'){this.value='';}" onblur="if(this.value=='请输入验证码'){this.value='';}" placeholder="请输入验证码">
+                            </div>
+                            <div class="capture-button fr mobfl">
+                                <button class="yh">发送验证码</button>
+                            </div>
+                            <div class="space0"></div>
+                            <div class="login-button">
+                                <button type="button" class="yh">登&ensp;录</button>
+                            </div>
+                        </form>
                     </div>
                     <div class="dl-img fr">
                         <img src="img/dl_img.png">

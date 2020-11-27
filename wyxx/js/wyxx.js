@@ -24,7 +24,7 @@ $.fn.extend({
 // 使用自动适应高度
 $('textarea').autoHeight();
 
-var uploadDir = 'file'
+var fileStr = "";
 // 文件上传
 layui.use(['upload','layer'], function(){
     var upload = layui.upload;
@@ -32,22 +32,45 @@ layui.use(['upload','layer'], function(){
     //执行实例
     var uploadInst = upload.render({
         elem: '#choicefile' //绑定元素
-        ,url: uploadDir //上传接口
+        ,url: 'uploadFiles.php' //上传接口
         ,accept: 'file' //
         ,multiple: true
-        ,before: function(obj){
-            layer.load(); //上传loading
+        // ,before: function(obj){
+        //     layer.load(1); //上传loading
+        // }
+        // 在文件被选择后触发，该回调会在 before 回调之前
+        ,choose:function (obj){
+            layer.load(1); //上传loading
+            var files = obj.pushFile();
+            //预读本地文件，如果是多文件，则会遍历。(不支持ie8/9)
+            obj.preview(function(index, file){
+                fileStr += file.name+" ";
+           })
         }
+        // 屏蔽掉done，选择allDone
         ,done: function(res){
             //上传完毕回调
             layer.closeAll('loading'); //关闭loading
-            // console.log(res+'1')
-            //layer.msg('1111');
+            $('#filename').val(fileStr)
         }
-        ,error: function(res){
-            layer.closeAll('loading'); //关闭loading
-            // console.log(res)
-            //layer.msg('上传失败，请联系管理员')
+        // 因为可能产生多文件，所以选择全部上传完在进行回调
+        ,allDone: function(res){ //当文件全部被提交后，才触发
+            layer.closeAll('loading');
+            // 全部上传完毕一起回调
+            if(res.aborted === 0){
+                layer.msg(res.successful+'个文件上传成功', {
+                    time: '2500'
+                })
+            }else{
+                layer.msg('您有'+res.aborted+'上传失败', {
+                    time: '2500'
+                })
+            }
+        }
+        ,error: function(){
+            //关闭loading
+            layer.closeAll('loading');
+            layer.msg('上传失败，请联系管理员')
         }
     });
 });
@@ -62,6 +85,8 @@ var captcha = new GVerify({
 $('.refresh').click(function () {
     captcha.refresh();
 })
+// 校验验证码
+// captcha.validate(code);
 // 关闭移动端的row属性
 if(isPhone()) {
     $('.wyxx-content-input').attr('row',0)

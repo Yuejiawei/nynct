@@ -93,8 +93,7 @@ function submitsearch(){
 }
 
 // 简繁切换
-function fycninit()
-{
+function fycninit() {
     fycnbtnObject = document.getElementById(fy_cn);
 
     if ( fycnbtnObject )
@@ -123,8 +122,7 @@ function fycninit()
     }
 }
 
-function fytwinit()
-{
+function fytwinit() {
     fytwbtnObject = document.getElementById(fy_tw);
 
     if ( fytwbtnObject )
@@ -152,6 +150,7 @@ function fytwinit()
         }
     }
 }
+
 // 首页banner轮播图
 $(function () {
     var scroll = new zScroll({
@@ -170,6 +169,10 @@ $(function () {
         space:40,
         breakpoints: {
             // 若宽度小于768
+            1024: {
+                previewNum: 3,
+                space: 10
+            },
             768: {
                 previewNum: 2,
                 space: 0
@@ -215,32 +218,36 @@ function paginate(obj,insertObj=obj, num=3) {
 browserRedirect()
 // 手机端的导航栏切换
 function browserRedirect() {
-    if (isPhone()){
-        // 云农快讯、信息联播选项卡切换
-        $('.swiper-tab span').hover(function () {
+    if (!isPhone()){
+        // 云农快讯、信息联播选项卡切换 pc
+        $('.swiper-tab span').hover(function (e) {
             var index = findIndex($(this).index());
             $(this).addClass('active').siblings().removeClass('active');
             $(this).siblings().children().children('.tab-line').addClass('dn')
             $(this).children().children('.tab-line').removeClass('dn')
             $('.tab-text-wrapper').hide().eq(index).show();
+            e.preventDefault()
+            e.stopPropagation()
         });
-        // 政务公开
+        // 首页政务公开部分
         $('.zwgk-tab-title span').hover(function () {
             var index = findIndex($(this).index());
             $(this).addClass('zwgk-active').siblings().removeClass('zwgk-active');
             $('.zwgk-content-list').hide().eq(index).show();
+            return false;
         });
     } else {
-        // 云农快讯、信息联播选项卡切换
-        $('.swiper-tab span').click(function () {
+        // 云农快讯、信息联播选项卡切换 手机
+        $('.swiper-tab span').click(function (e) {
             var index = findIndex($(this).index());
             $(this).addClass('active').siblings().removeClass('active');
             $(this).siblings().children().children('.tab-line').addClass('dn')
             $(this).children().children('.tab-line').removeClass('dn')
             $('.tab-text-wrapper').hide().eq(index).show();
+            e.preventDefault()
             e.stopPropagation()
         });
-        // 政务公开
+        // 首页政务公开部分
         $('.zwgk-tab-title span').click(function () {
             var index = findIndex($(this).index());
             $(this).addClass('zwgk-active').siblings().removeClass('zwgk-active');

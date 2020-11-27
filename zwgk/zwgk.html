@@ -243,7 +243,7 @@
     <!-- 政府信息公开目录 -->
     <div class="scroll_main dn">
       <div class="scroll_wrap">
-        <h1 style="font-size: 32pt;">政府信息公开指南2</h1>
+        <h1>政府信息公开指南2</h1>
         <div class="scroll_cont ScrollStyle">
           <div class="view zfxxgk_zn">
             <p>
@@ -3319,45 +3319,9 @@
     })
 
     // 分页
-    $('.table tbody').paginathing({
-      perPage: 10,
-      insertAfter: '.table',
-      pageNumbers:false,
-      containerClass: 'zfxxgk_page',
-      prevNext:true,
-      firstLast:true,
-      prevText: " < 上一页",
-      nextText: "下一页 > ",
-      firstText:'首页',
-      lastText:'尾页',
-      limitPagination:5,
-    })
-    $('.table1 tbody').paginathing({
-      perPage: 10,
-      insertAfter: '.table1',
-      pageNumbers:false,
-      containerClass: 'zfxxgk_page',
-      prevNext:true,
-      firstLast:true,
-      prevText: " < 上一页",
-      nextText: "下一页 > ",
-      firstText:'首页',
-      lastText:'尾页',
-      limitPagination:5,
-    })
-    $('.wjtz-list').paginathing({
-      perPage: 10,
-      insertAfter: '.wjtz-list',
-      pageNumbers:false,
-      containerClass: 'zfxxgk_page',
-      prevNext:true,
-      firstLast:true,
-      prevText: " < 上一页",
-      nextText: "下一页 > ",
-      firstText:'首页',
-      lastText:'尾页',
-      limitPagination:5,
-    })
+    paginate('.table tbody','.table', 10)
+    paginate('.table1 tbody','.table1', 10)
+    paginate('.wjtz-list','.wjtz-list',10)
 </script>
 </body>
 

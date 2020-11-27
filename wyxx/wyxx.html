@@ -38,7 +38,7 @@
             <div class="top-searandnav fr">
                 <div class="top-search fr">
                     <input name="keyword" type="text" class="search-input" id="textfield"
-                           onkeydown="if(event.keyCode===13){submitsearch();}"
+                           onkeydown="if(event.keyCode==13){submitsearch();}"
                            onfocus="if(this.value==='请输入关键字'){this.value='';}"
                            onblur="if(this.value==''){this.value='请输入关键词';}" placeholder="请输入关键字"/>
                     <div id="btn_submit" class="search-icon" onclick="submitsearch()"></div>
@@ -129,7 +129,7 @@
                             </div>
                             <div class="name-wrapper clearfix ohd">
                                 <div class="name-title fl">&ensp; 上传文件：</div>
-                                <input type="text" disabled name="filename" value="未选择任何文件" class="wyxx-filename-input">
+                                <input type="text" disabled name="filename" id="filename" value="未选择任何文件" class="wyxx-filename-input">
                                 <button type="button" class="layui-btn" id="choicefile">
                                     选择文件
                                 </button>
@@ -141,7 +141,7 @@
                                 <div class="refresh fl pcShow"><img src="img/refresh.png"></div>
                             </div>
                             <div class="button-wrapper clearfix ohd">
-                                <button class="button-queding">提交</button>
+                                <button type="button" class="button-queding">提交</button>
                                 <button type="reset" class="button-queding">重置</button>
                             </div>
                         </form>

@@ -120,10 +120,10 @@
         color: #999;
     }
     .pagination .active {
-        font-size: 14px;
+        font-size: 12px;
     }
     .zxwj-list-page {
-        font-size: 14px;
+        font-size: 12px;
         font-family: SimSun;
     }
     .zxwj-list-page .page a {
@@ -136,6 +136,6 @@
         margin-left: 6px;
     }
     .active {
-        font-size: 14px;
+        font-size: 12px;
     }
 }

@@ -1,7 +1,7 @@
 if(isPhone()){
-    paginate('.ynsp-video-wrapper3');
+    paginate('.ynsp-video-wrapper3','.ynsp-video-wrapper3');
 }else {
-    paginate('.ynsp-video-wrapper1');
+    paginate('.ynsp-video-wrapper1','.ynsp-video-wrapper1');
 }
 
 // 云农视频顶部选项卡切换
@@ -17,10 +17,10 @@ $('.ynsp-guide span').click(function (){
             $(this).siblings().children('img').attr('src','img/kyqcsc.png')
             if(isPhone()){
                 $('.ynsp-video-wrapper3').hide().siblings('.ynsp-video-wrapper4').show()
-                paginate('.ynsp-video-wrapper4')
+                paginate('.ynsp-video-wrapper4','.ynsp-video-wrapper4')
             }else{
                 $('.ynsp-video-wrapper1').hide().siblings('.ynsp-video-wrapper2').show()
-                paginate('.ynsp-video-wrapper2')
+                paginate('.ynsp-video-wrapper2','.ynsp-video-wrapper2')
             }
 
         }else {
@@ -28,28 +28,11 @@ $('.ynsp-guide span').click(function (){
             $(this).siblings().children('img').attr('src','img/rjhjpic.png')
             if(isPhone()){
                 $('.ynsp-video-wrapper4').hide().siblings('.ynsp-video-wrapper3').show()
-                paginate('.ynsp-video-wrapper3')
+                paginate('.ynsp-video-wrapper3','.ynsp-video-wrapper3')
             }else{
                 $('.ynsp-video-wrapper2').hide().siblings('.ynsp-video-wrapper1').show()
-                paginate('.ynsp-video-wrapper1')
+                paginate('.ynsp-video-wrapper1','.ynsp-video-wrapper1')
             }
-
         }
     }
 })
-function paginate(obj, num=3) {
-    // 云农视频分页
-    $(obj).paginathing({
-        perPage: num,
-        insertAfter: obj,
-        pageNumbers:false,
-        containerClass: 'zxwj-list-page',
-        prevNext:true,
-        firstLast:true,
-        prevText: " < 上一页",
-        nextText: "下一页 > ",
-        firstText:'首页',
-        lastText:'尾页',
-        limitPagination:5,
-    })
-}

@@ -17,7 +17,7 @@ $('.fsw span').click(function(){
     _el.css("font-size", _ft );
     // console.log(_ft );
 })
-// 打印本页
+// 打印本页面
 function preview(oper){
     if (oper < 10){
         bdhtml=window.document.body.innerHTML;//获取当前页的html代码

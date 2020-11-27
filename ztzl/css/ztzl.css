@@ -73,7 +73,7 @@
 .ztzl-item-text a,.ztzl-item-text a:hover,.ztzl-item-text a:link,.ztzl-item-text a:active,.ztzl-item-text a:visited {
     color: #333;
 }
-.ztzl_page {
+.zxwj-list-page {
     text-align: center;
     font-family: SimSun;
 }
@@ -81,13 +81,13 @@
     font-size: 16px;
     color: #333;
 }
-.ztzl_page .prev a {
+.zxwj-list-page .prev a {
     margin-right: 15px;
 }
-.ztzl_page .page a {
+.zxwj-list-page .page a {
     margin-right: 8px;
 }
-.ztzl_page .next a {
+.zxwj-list-page .next a {
     margin-left: 7px;
 }
 @media screen and (max-width: 600px) {
@@ -105,19 +105,22 @@
         color: #333;
         line-height: 16px;
     }
-    .ztzl_page {
-        font-size: 14px;
+    .zxwj-list-page {
+        font-size: 12px;
     }
-    .ztzl_page .page a {
+    .zxwj-list-page .page a {
         margin-right: 5px;
     }
-    .ztzl_page .prev a {
+    .zxwj-list-page .prev a {
         margin-right: 11px;
     }
-    .ztzl_page .next a {
+    .zxwj-list-page .next a {
         margin-left: 6px;
     }
+    .pagination .active {
+        font-size: 12px;
+    }
     .active {
-        font-size: 14px;
+        font-size: 12px;
     }
 }

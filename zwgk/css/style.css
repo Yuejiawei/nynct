@@ -272,7 +272,7 @@ span{padding:0; margin:0;}
 }
 /* 滚动内容区样式 */
 .scroll_wrap {width: 100%; height:100%;position: relative; }
-.scroll_wrap h1{   text-align:center; margin:0px; padding:0px; margin-top:38px; margin-bottom:38px; color:#3456ba; font-weight:600;}
+.scroll_wrap h1{   text-align:center; margin:0px; padding:0px; margin-top:38px; margin-bottom:38px; color:#3456ba; font-weight:600;font-size: 32pt;}
 .scroll_wrap .scroll_cont {height:920px;overflow: hidden; padding:0px 20px;}
 .scroll_wrap .scroll_cont p {text-indent: 32px;line-height: 40px;font-size: 16px;}
 .scroll_wrap .scroll_cont h2{ font-size:24px;line-height: 50px;}
@@ -310,13 +310,20 @@ span{padding:0; margin:0;}
 .zfxxgk_wj ul li span:nth-child(1){float: left;width: 80%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;color: #4d4d4d;}
 .zfxxgk_wj ul li  span:nth-child(2){ float: right;font-size:16px; margin-left:20px; font-weight:100; float:right;color: #b2b2b2;}
 
-.zfxxgk_page .prev a {
+.zxwj-list-page {
+    text-align: center;
+    font-family: SimSun;
+}
+.pagination .active {
+    font-size: 16px;
+}
+.zxwj-list-page .prev a {
     margin-right: 15px;
 }
-.zfxxgk_page .page a {
+.zxwj-list-page .page a {
     margin-right: 8px;
 }
-.zfxxgk_page .next a {
+.zxwj-list-page .next a {
     margin-left: 7px;
 }
 /* 文件通知 */
@@ -368,7 +375,6 @@ span{padding:0; margin:0;}
     top:50%;left: 0%;}
 .zfxxgk_wjer .wjer_list li span:nth-child(1){margin-left: 20px;}
 .zfxxgk_wjer .wjer_list li span a{color: #4c4c4c;}
-.zfxxgk_page{text-align: center;}
 
 /* 政府领导 */
 .zfld_layer{border-bottom:1px solid #e3e5f4}
