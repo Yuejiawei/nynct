@@ -42,8 +42,15 @@
 .yypt-list {
     margin-bottom: 3%;
 }
-.row img {
-    box-shadow: 0 0 10px #ededed;
+.yypt-list-wrapper a {
+    padding-right: 4.9%;
+    padding-bottom: 4%;
+}
+.yypt-list-wrapper a:last-of-type {
+    padding-right: 0;
+}
+.yypt-list-wrapper img {
+    box-shadow: 0 0 10px #dee2ea;
 }
 @media screen and (max-width: 600px) {
     .mobfl {
@@ -68,6 +75,17 @@
     }
     .bsfw {
         width: 100%;
+    }
+    .yypt-list-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .yypt-list-wrapper a {
+        padding: 0;
+    }
+    .yypt-list-wrapper a img {
+        width: 100%;
+        margin-bottom: 4%;
     }
     .bsfw_item{
         width: 50%;
